@@ -113,10 +113,9 @@ class: text-center
 zoom: 0.85
 ---
 
-<!-- SLIDE 3 -->
 # ¿Tu negocio **mejora** o se **rompe** con los <span v-mark.circle.orange="0">cambios de contexto</span>?
 
-<div class="grid grid-cols-2 gap-16 mt-16 text-left">
+<div class="grid grid-cols-2 gap-16 mt-12 text-left">
   <div class="p-8 bg-red-500/10 rounded-lg border-2 border-red-500">
     <div class="text-6xl mb-4">💔</div>
     <div class="text-4xl font-bold text-red-500">Se ROMPE</div>
@@ -126,8 +125,13 @@ zoom: 0.85
   <div class="p-8 bg-green-500/10 rounded-lg border-2 border-green-500">
     <div class="text-6xl mb-4">🚀</div>
     <div class="text-4xl font-bold text-green-500">MEJORA</div>
-    <div class="text-lg mt-4 opacity-80">Antifrágil y crece con el caos</div>
+    <div class="text-lg mt-4 opacity-80">Antifrágil: crece con el caos</div>
   </div>
+</div>
+
+<div class="mt-10 text-center text-xl italic opacity-90">
+  Antifragilidad (Taleb): se beneficia del desorden, volatilidad y estrés
+  <br>(en vez de solo resistirlo o romperse)
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
@@ -536,10 +540,10 @@ layout: center
   
   <!-- Leyendas del eje X (vertical izquierda y derecha, rotadas) -->
   <div class="absolute left-[15px] top-1/2 -translate-y-1/2 -rotate-90 text-xs text-gray-300 whitespace-nowrap">
-    Medir resultados e indicadores tardíos
+    Predictibilidad
   </div>
   <div class="absolute right-[15px] top-1/2 -translate-y-1/2 rotate-90 text-xs text-gray-300 whitespace-nowrap">
-    Medir antifragilidad e impacto
+    Adaptabilidad
   </div>
   
   <!-- CREA (cuadrante superior izquierdo) -->
@@ -555,13 +559,13 @@ layout: center
   
   <!-- EO (cuadrante inferior izquierdo) -->
   <div class="absolute bottom-[100px] left-[170px] w-[160px] h-[90px] bg-gray-600 rounded-lg flex flex-col items-center justify-center">
-    <div class="font-bold text-xl text-white">EO</div>
+    <div class="font-bold text-xl text-white">Vistage</div>
     <div class="text-xs text-gray-300 mt-1">Resultados tardíos</div>
   </div>
   
   <!-- Vistage (cuadrante inferior derecho) -->
   <div class="absolute bottom-[110px] right-[200px] w-[170px] h-[85px] bg-gray-600 rounded-lg flex items-center justify-center">
-    <div class="font-bold text-xl text-white">Vistage</div>
+    <div class="font-bold text-xl text-white">EO</div>
   </div>
 
 </div>
@@ -1061,28 +1065,59 @@ Se rompe con shocks
 
 ---
 layout: center
+zoom: 0.9
 ---
-
 <!-- SLIDE 19 -->
-# Crecimiento 5 Años
+# Proyección Crecimiento 5 Años
 
-<div class="pt-2">
+<div class="grid grid-cols-5 gap-4 mt-8 text-center text-2xl">
 
-| Año | Grupos | Founders | ARR     | Balance  |
-|-----|--------|----------|---------|----------|
-| 1   | 4      | <span v-mark.underline.blue="1">40</span>       | $160k   | $33k     |
-| 2   | 10     | <span v-mark.underline.blue="2">100</span>      | $401k   | $120k    |
-| 3   | 16     | <span v-mark.underline.blue="3">160</span>      | $642k   | $193k    |
-| 4   | 21     | <span v-mark.underline.blue="4">210</span>      | $843k   | $253k    |
-| 5   | 25     | <span v-mark.underline.blue="5">250</span>      | **$1.0M** | **$301k** |
+  <div>Año</div>
+  <div>Grupos</div>
+  <div>Founders</div>
+  <div>ARR</div>
+  <div>Balance</div>
 
-<div class="pt-2 text-sm text-gray-400">
+  <div class="font-bold">1</div>
+  <div>4</div>
+  <div><span v-mark.underline.blue="1">40</span></div>
+  <div>$160k</div>
+  <div>$33k</div>
 
-**Supuestos conservadores:**  
-Churn 5% (retención 95%) · Crecimiento 40% referidos · Sin inversión post-semilla · Cash flow positivo desde M1
+  <div class="font-bold">2</div>
+  <div>10</div>
+  <div><span v-mark.underline.blue="2">100</span></div>
+  <div>$400k</div>
+  <div>$120k</div>
+
+  <div class="font-bold">3</div>
+  <div>16</div>
+  <div><span v-mark.underline.blue="3">160</span></div>
+  <div>$640k</div>
+  <div>$190k</div>
+
+  <div class="font-bold">4</div>
+  <div>21</div>
+  <div><span v-mark.underline.blue="4">210</span></div>
+  <div>$840k</div>
+  <div>$250k</div>
+
+  <div class="font-bold text-green-400">5</div>
+  <div>25</div>
+  <div><span v-mark.underline.blue="5">250</span></div>
+  <div class="text-green-400 font-bold">$900k</div>
+  <div class="text-green-400 font-bold">$270k</div>
 
 </div>
 
+<div class="mt-8 text-center text-xl">
+  Contexto mercado LATAM  
+  TAM $370M · SAM $37M · SOM $1.8M–$3.7M  
+  → Año 5: ~0.24%–0.5% del mercado alcanzable
+</div>
+
+<div class="mt-4 text-center text-lg opacity-80">
+  Supuestos conservadores: Churn 5% · Referidos +40% · Cashflow positivo desde mes 1 · Sin levantar más capital
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
@@ -1093,32 +1128,105 @@ Churn 5% (retención 95%) · Crecimiento 40% referidos · Sin inversión post-se
 ---
 layout: center
 class: text-center
+zoom: 0.85
 ---
 
 <!-- SLIDE 20 -->
-# Proyección de Mercado LATAM
+# Oportunidad de Mercado
 
-**¿Qué % capturamos?**
-
-<div class="grid grid-cols-2 gap-16 mt-12">
-
-<div>
-  <div class="text-6xl font-bold text-green-400">0,25%</div>
-  <div class="text-2xl mt-4">→ Startups con foco en impacto+</div>
-  <div class="text-5xl font-bold mt-8">$1.8M</div>
+<div class="text-xl mb-6 text-green-400">
+Negocios con Impacto (Deep Tech / Base Científica-Tecnológica)
 </div>
 
-<div>
-  <div class="text-6xl font-bold text-green-400">1%</div>
-  <div class="text-2xl mt-4">→ Startups tradicionales</div>
-  <div class="text-5xl font-bold mt-8">$3.7M</div>
+<div class="text-xs">
+
+| Nivel | Startups Impacto+ | Deep Tech Total | Mercado Potencial |
+|:------|:------------------|:----------------|:------------------|
+| <div class="font-bold text-blue-400">🌍 MUNDIAL (TAM)</div> | ~18K-28K<br/>(20-30%) | ~91.5K activas<br/>(~30K funded) | <div class="text-green-400 font-bold">$714B-$5T+</div><br/>hacia 2030-2035 |
+| <div class="font-bold text-orange-400">🌎 LATAM (SAM)</div> | ~250-450<br/>(20-35%) | ~1,300-1,500<br/>(~340 venture-backed) | <div class="text-green-400 font-bold">Miles de millones</div><br/>+50-200% reciente |
+| <div class="font-bold text-green-400">🎯 Inicial (SOM)</div> | ~200-400<br/>foco LATAM | ~300-500<br/>accesibles | <div class="text-green-400 font-bold">Cientos de millones</div><br/>capturable 3-5 años |
+
 </div>
 
+<div v-click class="grid grid-cols-3 gap-4 mt-6 text-xs">
+
+<div class="p-3 bg-blue-900/30 rounded border-t-2 border-blue-500">
+<div class="font-bold text-blue-400 mb-1">Mundial</div>
+<div>Inversión VC 2025: ~$217B</div>
+<div>EE.UU./China/India lideran</div>
+<div>AI, quantum, cleantech explotan</div>
+</div>
+
+<div class="p-3 bg-orange-900/30 rounded border-t-2 border-orange-500">
+<div class="font-bold text-orange-400 mb-1">LATAM</div>
+<div>Brasil: 72% del ecosistema</div>
+<div>Chile/ARG/MX/COL: 80% regional</div>
+<div>Fondos + gobierno impulsan</div>
+</div>
+
+<div class="p-3 bg-green-900/30 rounded border-t-2 border-green-500">
+<div class="font-bold text-green-400 mb-1">Nuestro Foco</div>
+<div>200-400 startups impacto+</div>
+<div>Cleantech/Biotech/Agritech</div>
+<div>Aceleradoras regionales activas</div>
+</div>
+
+</div>
+
+<div v-click class="mt-6 p-3 bg-green-900/20 rounded border border-green-500 text-xs">
+<div class="font-bold text-green-400 mb-1">🚀 Por qué LATAM es clave</div>
+<div class="grid grid-cols-3 gap-2">
+<div>✅ Biodiversidad única</div>
+<div>✅ Necesidades climáticas urgentes</div>
+<div>✅ Escalabilidad regional → global</div>
+</div>
+</div>
+
+<div class="text-[9px] mt-4 opacity-60">
+Fuentes: Tracxn 2026, StartUs Insights 2025-2026, Emerge Deep Tech Radar LATAM 2025
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
   <span class="text-gray-400">20/21</span>
+</div>
+
+---
+layout: center
+class: text-center
+zoom: 0.85
+---
+
+# Mercado LATAM: TAM / SAM / SOM
+
+**Proyección realista (económico + cantidad de startups)**
+
+<div class="grid grid-cols-3 gap-10 mt-10 text-center">
+  <div class="p-6 bg-gray-800/40 rounded-lg border border-gray-600">
+    <div class="text-5xl font-bold text-blue-400">TAM</div>
+    <div class="text-3xl mt-3">$370M</div>
+    <div class="text-xl mt-2 opacity-90">~18.500 startups</div>
+    <div class="text-lg mt-3 opacity-80">Todo el mercado relevante</div>
+  </div>
+  
+  <div class="p-6 bg-purple-800/40 rounded-lg border border-purple-600">
+    <div class="text-5xl font-bold text-purple-400">SAM</div>
+    <div class="text-3xl mt-3">$37M</div>
+    <div class="text-xl mt-2 opacity-90">~1.850 startups</div>
+    <div class="text-lg mt-3 opacity-80">Segmento alcanzable hoy</div>
+  </div>
+  
+  <div class="p-6 bg-green-800/40 rounded-lg border border-green-600">
+    <div class="text-5xl font-bold text-green-400">SOM</div>
+    <div class="text-3xl mt-3">$1.8M – $3.7M</div>
+    <div class="text-xl mt-2 opacity-90">46 – 185 startups</div>
+    <div class="text-lg mt-3 opacity-80">Captura realista</div>
+  </div>
+</div>
+
+<div class="mt-10 text-center text-xl">
+  → 0,25% → ~46 startups impacto+ ($1.8M)  
+  → 1%   → ~185 startups tradicionales ($3.7M)
 </div>
 
 ---
