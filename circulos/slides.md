@@ -355,7 +355,7 @@ zoom: 0.9
 
 <v-click>
 
-## Somos **un programa enfocado en startup de LATAM** que ofrece:
+## Somos **una comunidad de aprendizaje entre pares enfocado en startup de LATAM** que ofrece:
 
 </v-click>
 
