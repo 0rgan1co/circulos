@@ -255,7 +255,6 @@ class: text-center
 zoom: 0.85
 ---
 
-<!-- SLIDE 6 -->
 # Teoría del Cambio
 
 <div class="text-left max-w-5xl mx-auto pt-4 space-y-3">
@@ -321,19 +320,15 @@ Si founders de startups con base científica y tecnológica desarrollan <RoughMa
 
 </div>
 
-<div v-click class="mt-3 p-2 bg-blue-900/20 rounded border border-blue-400 text-[10px]">
-<div class="font-bold text-blue-300 mb-1">📊 Marco Doughnut Economics</div>
-<div class="grid grid-cols-2 gap-2">
-<div>
-<strong class="text-green-400">Límites Planetarios (techo):</strong> Cambio climático, biodiversidad, agua, suelo
-</div>
-<div>
-<strong class="text-orange-400">Base Social (suelo):</strong> Alimentación, salud, educación, trabajo digno, equidad
-</div>
-</div>
-<div class="mt-1 text-center italic opacity-80">
-El espacio seguro y justo para la humanidad está entre ambos límites
-</div>
+<div v-click class="mt-4 text-left text-[10px] bg-blue-900/20 p-3 rounded border border-blue-500">
+  <div class="font-bold text-blue-300 mb-2">📊 Marco Doughnut Economics</div>
+  
+  <strong class="text-green-400">Límites Planetarios (techo):</strong> Cambio climático, biodiversidad, agua, suelo<br>
+  <strong class="text-orange-400">Base Social (suelo):</strong> Alimentación, salud, educación, trabajo digno, equidad
+  
+  <div class="mt-2 italic opacity-75 text-center">
+    El espacio seguro y justo para la humanidad está entre ambos límites
+  </div>
 </div>
 
 </div>
