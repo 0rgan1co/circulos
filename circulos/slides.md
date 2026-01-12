@@ -28,7 +28,7 @@ mdc: true
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
-  <span class="text-gray-400">1/20</span>
+  <span class="text-gray-400">1/21</span>
 </div>
 
 ---
@@ -104,7 +104,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">2/20</span>
+  <span class="text-gray-400">2/21</span>
 </div>
 
 ---
@@ -113,7 +113,7 @@ class: text-center
 zoom: 0.85
 ---
 
-<!-- SLIDE xx -->
+<!-- SLIDE 3 -->
 # ¿Tu negocio **mejora** o se **rompe** con los <span v-mark.circle.orange="0">cambios de contexto</span>?
 
 <div class="grid grid-cols-2 gap-16 mt-16 text-left">
@@ -130,9 +130,16 @@ zoom: 0.85
   </div>
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">3/21</span>
+</div>
+
+---
+layout: center
 ---
 
-<!-- SLIDE 3 -->
+<!-- SLIDE 4 -->
 # Los números hablan por si solos
 
 <div class="grid grid-cols-4 gap-4 pt-4">
@@ -201,18 +208,20 @@ zoom: 0.85
 </div>
 </div>
 
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">3/20</span>
-</div>
-
 <div class="text-sm mt-8 opacity-50 text-center">
 Fuente: <a href="https://www.cbinsights.com/research/report/startup-failure-reasons-top/" target="_blank" class="text-blue-400 hover:text-blue-300">CB Insights - Top Reasons Startups Fail</a>
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">4/21</span>
+</div>
+
+---
+layout: center
 ---
 
-<!-- SLIDE 4 -->
+<!-- SLIDE 5 -->
 <div class="text-left text-lg pt-2 max-w-4xl mx-auto">
 
 ## ❌ Para quién NO es:
@@ -237,7 +246,101 @@ Fuente: <a href="https://www.cbinsights.com/research/report/startup-failure-reas
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">4/20</span>
+  <span class="text-gray-400">5/21</span>
+</div>
+
+---
+layout: center
+class: text-center
+zoom: 0.85
+---
+
+<!-- SLIDE 6 -->
+# Teoría del Cambio
+
+<div class="text-left max-w-5xl mx-auto pt-4 space-y-3">
+
+<div v-click class="p-4 bg-green-900/30 rounded border-l-4 border-green-500">
+<div class="text-lg font-bold text-green-400 mb-2">🌍 Hipótesis Central (basada en Doughnut Economics)</div>
+<div class="text-sm leading-relaxed">
+Si founders de startups con base científica y tecnológica desarrollan <RoughMarker type="circle" color="#f59e0b">antifragilidad</RoughMarker>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones regenerativas, operando dentro de los <RoughMarker type="circle" color="#10b981">límites planetarios</RoughMarker> mientras cubren las <strong>necesidades humanas fundamentales</strong>, generando <strong>cambio sistémico</strong> en sus ecosistemas.
+</div>
+</div>
+
+<div class="grid grid-cols-5 gap-2 text-[10px]">
+
+<div v-click class="p-2 bg-blue-900/30 rounded border-t-3 border-blue-500">
+<div class="font-bold text-blue-400 mb-1 text-xs">INPUT</div>
+<div class="space-y-0.5">
+<div>• Framework Antifragilidad</div>
+<div>• Facilitadores comprometidos</div>
+<div>• Comunidad de pares</div>
+<div>• Tracking trimestral</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-cyan-900/30 rounded border-t-3 border-cyan-500">
+<div class="font-bold text-cyan-400 mb-1 text-xs">ACTIVIDADES</div>
+<div class="space-y-0.5">
+<div>• 4 encuentros presenciales</div>
+<div>• Sesiones 1:1</div>
+<div>• Assessment Score</div>
+<div>• Eventos comunidad</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-purple-900/30 rounded border-t-3 border-purple-500">
+<div class="font-bold text-purple-400 mb-1 text-xs">OUTPUT</div>
+<div class="space-y-0.5">
+<div>• Score mejora 2+ niveles</div>
+<div>• 3+ fuentes ingreso</div>
+<div>• Equipos empoderados</div>
+<div>• Decisiones con datos</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-orange-900/30 rounded border-t-3 border-orange-500">
+<div class="font-bold text-orange-400 mb-1 text-xs">OUTCOME</div>
+<div class="space-y-0.5">
+<div>• Mayor supervivencia (80%)</div>
+<div>• Diversificación ingresos</div>
+<div>• Autonomía y delegación</div>
+<div>• Escalamiento sostenible</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-green-900/30 rounded border-t-3 border-green-500">
+<div class="font-bold text-green-400 mb-1 text-xs">IMPACTO</div>
+<div class="space-y-0.5">
+<div>• <strong>Dentro límites planetarios:</strong> regeneración suelo/agua/aire</div>
+<div>• <strong>Sobre base social:</strong> trabajo digno, distribución valor</div>
+<div>• Innovación regenerativa en mercado</div>
+<div>• Transformación: de 30% riesgoso a 20% antifrágil</div>
+</div>
+</div>
+
+</div>
+
+<div v-click class="mt-3 p-2 bg-blue-900/20 rounded border border-blue-400 text-[10px]">
+<div class="font-bold text-blue-300 mb-1">📊 Marco Doughnut Economics</div>
+<div class="grid grid-cols-2 gap-2">
+<div>
+<strong class="text-green-400">Límites Planetarios (techo):</strong> Cambio climático, biodiversidad, agua, suelo
+</div>
+<div>
+<strong class="text-orange-400">Base Social (suelo):</strong> Alimentación, salud, educación, trabajo digno, equidad
+</div>
+</div>
+<div class="mt-1 text-center italic opacity-80">
+El espacio seguro y justo para la humanidad está entre ambos límites
+</div>
+</div>
+
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">6/21</span>
 </div>
 
 ---
@@ -246,7 +349,7 @@ class: text-center
 zoom: 0.9
 ---
 
-<!-- SLIDE 5 -->
+<!-- SLIDE 7 -->
 # ¿Qué es "Círculos con Impacto+"?
 
 <div class="text-xl pt-8">
@@ -263,7 +366,7 @@ zoom: 0.9
 <div class="text-4xl">📊</div>
 <div class="font-bold text-green-500">Score Antifragilidad</div>
 <div class="text-sm">Framework propietario de 280 puntos, recolectando datos y evidencia</div>
-<a @click="$slidev.nav.go(16)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
+<a @click="$slidev.nav.go(18)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
   Ver detalle del Score →
 </a>
 </div>
@@ -292,7 +395,7 @@ zoom: 0.9
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">5/20</span>
+  <span class="text-gray-400">7/21</span>
 </div>
 
 ---
@@ -300,7 +403,7 @@ layout: center
 class: text-center
 ---
 
-<!-- SLIDE 10 -->
+<!-- SLIDE 8 -->
 # **¿Por qué ahora?:** Ventana 2026-2027
 
 <div class="grid grid-cols-3 gap-6 pt-8 text-sm">
@@ -363,7 +466,7 @@ Startups con impacto+ necesitan <strong>antifragilidad</strong> para construir i
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">10/20</span>
+  <span class="text-gray-400">8/21</span>
 </div>
 
 ---
@@ -371,7 +474,7 @@ layout: center
 class: text-center
 ---
 
-<!-- SLIDE 6 -->
+<!-- SLIDE 9 -->
 # Movimientos clave 
 
 <div class="text-3xl font-bold text-green-500 pt-8">
@@ -410,14 +513,14 @@ class: text-center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">6/20</span>
+  <span class="text-gray-400">9/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 7 -->
+<!-- SLIDE 10 -->
 # Posicionamiento Competitivo
 
 <div class="relative w-[900px] h-[500px] mx-auto mt-2">
@@ -470,7 +573,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">7/20</span>
+  <span class="text-gray-400">10/21</span>
 </div>
 
 ---
@@ -478,7 +581,7 @@ layout: center
 zoom: 0.9
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 11 -->
 # Posicionamiento: Complementarios, No Competidores
 <div class="text-green-400 text-lg mb-4">Nuestro Sweet Spot en el Ecosistema</div>
 
@@ -523,14 +626,14 @@ zoom: 0.9
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">15/20</span>
+  <span class="text-gray-400">11/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 8 -->
+<!-- SLIDE 12 -->
 # Propuesta económica para Founders
 
 <div class="grid grid-cols-2 gap-8 items-start">
@@ -601,16 +704,15 @@ Servicio de revisión trimestral del "Score Antifragilidad" sin costo por 1 año
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">8/20</span>
+  <span class="text-gray-400">12/21</span>
 </div>
-
 
 ---
 layout: center
 class: text-center
 ---
 
-<!-- SLIDE 9 -->
+<!-- SLIDE 13 -->
 # Mirada de negocio | Ingresos
 
 <div class="grid grid-cols-3 gap-8 pt-12">
@@ -648,14 +750,14 @@ class: text-center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">9/20</span>
+  <span class="text-gray-400">13/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 14 -->
 # Mirada de negocio | Egresos
 
 <div class="pt-8">
@@ -708,14 +810,14 @@ Programa autofinanciado
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">11/20</span>
+  <span class="text-gray-400">14/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 15 -->
 # Principales Riesgos de la prueba piloto
 
 <div class="space-y-4 text-sm mt-8">
@@ -768,14 +870,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">12/20</span>
+  <span class="text-gray-400">15/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 16 -->
 # Roadmap 2026
 
 <div class="grid grid-cols-3 gap-6 pt-6 text-sm">
@@ -848,14 +950,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">13/20</span>
+  <span class="text-gray-400">16/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 17 -->
 # Apéndice
 
 <div class="text-sm space-y-2 pt-8">
@@ -888,14 +990,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">14/20</span>
+  <span class="text-gray-400">17/21</span>
 </div>
 
 ---
 layout: two-cols
 ---
 
-<!-- SLIDE 16 -->
+<!-- SLIDE 18 -->
 # Framework Propietario
 
 ## Antifragilidad Score™
@@ -959,14 +1061,14 @@ Se rompe con shocks
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">16/20</span>
+  <span class="text-gray-400">18/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 17 -->
+<!-- SLIDE 19 -->
 # Crecimiento 5 Años
 
 <div class="pt-2">
@@ -990,7 +1092,7 @@ Churn 5% (retención 95%) · Crecimiento 40% referidos · Sin inversión post-se
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">17/20</span>
+  <span class="text-gray-400">19/21</span>
 </div>
 
 ---
@@ -998,15 +1100,7 @@ layout: center
 class: text-center
 ---
 
-<!-- SLIDE 18 -->
-# Tamaño del mercado
-
----
-layout: center
-class: text-center
----
-
-<!-- SLIDE 18 -->
+<!-- SLIDE 20 -->
 # Proyección de Mercado LATAM
 
 **¿Qué % capturamos?**
@@ -1029,7 +1123,7 @@ class: text-center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">18/20</span>
+  <span class="text-gray-400">20/21</span>
 </div>
 
 ---
@@ -1037,85 +1131,7 @@ layout: center
 class: text-center
 ---
 
-<!-- SLIDE 19 -->
-# Teoría del Cambio
-
-<div class="text-left max-w-5xl mx-auto pt-6 space-y-4">
-
-<div v-click class="p-4 bg-green-900/30 rounded border-l-4 border-green-500">
-<div class="text-lg font-bold text-green-400 mb-2">🌍 Hipótesis Central</div>
-<div class="text-sm">
-Si founders de startups con base científica y tecnológica desarrollan <strong>antifragilidad</strong>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones de impacto, generando <strong>cambio sistémico</strong> en sus ecosistemas.
-</div>
-</div>
-
-<div class="grid grid-cols-5 gap-3 text-xs">
-
-<div v-click class="p-3 bg-blue-900/30 rounded border-t-4 border-blue-500">
-<div class="font-bold text-blue-400 mb-2 text-sm">INPUT</div>
-<div class="space-y-1">
-<div>• Framework Antifragilidad</div>
-<div>• Facilitadores comprometidos</div>
-<div>• Comunidad de pares</div>
-<div>• Tracking trimestral</div>
-</div>
-</div>
-
-<div v-click class="p-3 bg-cyan-900/30 rounded border-t-4 border-cyan-500">
-<div class="font-bold text-cyan-400 mb-2 text-sm">ACTIVIDADES</div>
-<div class="space-y-1">
-<div>• 4 encuentros presenciales</div>
-<div>• Sesiones 1:1</div>
-<div>• Assessment Score</div>
-<div>• Eventos comunidad</div>
-</div>
-</div>
-
-<div v-click class="p-3 bg-purple-900/30 rounded border-t-4 border-purple-500">
-<div class="font-bold text-purple-400 mb-2 text-sm">OUTPUT</div>
-<div class="space-y-1">
-<div>• Antifragilidad mejora 2+ niveles</div>
-<div>• 3+ fuentes ingreso</div>
-<div>• Equipos empoderados</div>
-<div>• Decisiones con datos</div>
-</div>
-</div>
-
-<div v-click class="p-3 bg-orange-900/30 rounded border-t-4 border-orange-500">
-<div class="font-bold text-orange-400 mb-2 text-sm">OUTCOME</div>
-<div class="space-y-1">
-<div>• Mayor supervivencia</div>
-<div>• Diversificación ingresos</div>
-<div>• Autonomía con niveles de delegación claros</div>
-<div>• Escalamiento sostenible</div>
-</div>
-</div>
-
-<div v-click class="p-3 bg-green-900/30 rounded border-t-4 border-green-500">
-<div class="font-bold text-green-400 mb-2 text-sm">IMPACTO</div>
-<div class="space-y-1">
-<div>• Cambio climático real: regeneración de</div>
-<div>• Innovación mercado: nuevos productos y nuevos mercados</div>
-<div>• Ecosistemas fortalecidos: mas y mejores alianzas</div>
-<div>• De 30% riesgoso (daña planeta, deja pobreza) a 20% antifrágil: regenera suelo/agua, distribuye valor </div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">19/20</span>
-</div>
-
----
-layout: center
-class: text-center
----
-
-<!-- SLIDE 20 -->
+<!-- SLIDE 21 -->
 # ¿Listo para construir antifragilidad?
 
 <div class="pt-12 space-y-8">
@@ -1145,5 +1161,5 @@ Hagamos que más startups con foco en impacto+ sobrevivan y escalen
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">20/20</span>
+  <span class="text-gray-400">21/21</span>
 </div>
