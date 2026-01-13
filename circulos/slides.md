@@ -15,9 +15,9 @@ mdc: true
 ---
 
 <!-- SLIDE 1 -->
-# Círculos Impacto+
+# **Círculos Impacto+**
 
-## Comunidad de Antifragilidad 
+## Comunidad de **Antifragilidad**
 
 ### Para Founders de Startups con base científica y tecnológica en LATAM
 
@@ -30,6 +30,14 @@ mdc: true
 <div class="abs-br m-6 flex gap-2 text-sm">
   <span class="text-gray-400">1/21</span>
 </div>
+
+<div class="absolute bottom-6 left-6 right-6 p-1 rounded-lg backdrop-blur-md bg-black bg-opacity-50 shadow-lg border border-white border-opacity-20">
+  <p class="text-3xs text-white italic leading-relaxed">
+    "La antifragilidad, según Nassim Taleb, es la capacidad de un sistema para fortalecerse y mejorar precisamente gracias al desorden, la volatilidad y los shocks, más allá de solo resistirlos."
+  </p>
+</div>
+
+
 
 ---
 layout: center
