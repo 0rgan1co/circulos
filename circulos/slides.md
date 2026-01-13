@@ -28,7 +28,7 @@ mdc: true
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
-  <span class="text-gray-400">1/21</span>
+  <span class="text-gray-400">1/22</span>
 </div>
 
 <div class="absolute bottom-6 left-6 right-6 p-1 rounded-lg backdrop-blur-md bg-black bg-opacity-50 shadow-lg border border-white border-opacity-20">
@@ -112,7 +112,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">2/21</span>
+  <span class="text-gray-400">2/22</span>
 </div>
 
 ---
@@ -137,14 +137,9 @@ zoom: 0.85
   </div>
 </div>
 
-<div class="mt-10 text-center text-xl italic opacity-90">
-  Antifragilidad (Taleb): se beneficia del desorden, volatilidad y estrés
-  <br>(en vez de solo resistirlo o romperse)
-</div>
-
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">3/21</span>
+  <span class="text-gray-400">3/22</span>
 </div>
 
 ---
@@ -209,7 +204,7 @@ layout: center
 
 <div class="p-2 bg-purple-500/10 border-l-2 border-purple-500 rounded">
   <div class="text-xl font-bold text-purple-500">14-19%</div>
-  <div class="font-bold text-sm">Gestión financiera (escalado prematuro)</div>
+  <div class="font-bold text-sm">Gestión financiera ineficiente</div>
 </div>
 
 <div class="p-2 bg-pink-500/10 border-l-2 border-pink-500 rounded">
@@ -226,7 +221,7 @@ Fuente: <a href="https://www.cbinsights.com/research/report/startup-failure-reas
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">4/21</span>
+  <span class="text-gray-400">4/22</span>
 </div>
 
 ---
@@ -238,9 +233,9 @@ layout: center
 
 ## ❌ Para quién NO es:
 
-- Startups pre-revenue buscando validación
+- Startups "early-stage" buscando validación
 - Empresas establecidas ($50M+) con CFOs profesionales
-- Founders que creen "más inversión" es la única ruta
+- Founders que creen que "más inversión" es el único camino
 
 <v-click>
 
@@ -248,9 +243,9 @@ layout: center
 
 **Founders de startups con base científica y tecnológica Series A-B ($1-10M revenue) con:**
 
-- 🔬 Tecnología probada (TRL 7+) y primeros clientes pagando
-- ⚠️ 70-80% ingresos de 1-2 fuentes (grants o 1 cliente)
-- 👥 Equipos 10-50 personas con alta dependencia del founder
+- 🔬 Tecnología probada (TRL 7+) y clientes recurrentes pagando
+- ⚠️ 70-80% ingresos de 1-2 fuentes de ingresos
+- 👥 Equipos 10-50 personas con alta dependencia del founder o founder team
 
 </v-click>
 
@@ -258,7 +253,51 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">5/21</span>
+  <span class="text-gray-400">5/22</span>
+</div>
+
+---
+layout: center
+class: text-center
+zoom: 0.8
+---
+
+# Tamaño del Mercado
+
+<div class="grid grid-cols-3 gap-6 mt-10 items-start">
+  <div class="p-8 bg-blue-900/50 rounded-xl border-2 border-blue-500">
+    <div class="text-5xl font-extrabold text-blue-300">TAM</div>
+    <div class="text-3xl mt-4 font-bold">$8B+ ecosistema</div>
+    <div class="text-xl mt-3 opacity-90">~1.300–1.500 startups</div>
+    <div class="text-lg mt-4 opacity-80">Mercado total deep tech LATAM</div>
+  </div>
+
+  <div class="p-8 bg-purple-900/50 rounded-xl border-2 border-purple-500">
+    <div class="text-5xl font-extrabold text-purple-300">SAM</div>
+    <div class="text-3xl mt-4 font-bold">$1.5B inversión</div>
+    <div class="text-xl mt-3 opacity-90">~300–500 impacto</div>
+    <div class="text-lg mt-4 opacity-80">Segmento alcanzable (impacto + cleantech)</div>
+  </div>
+
+  <div class="p-8 bg-green-900/50 rounded-xl border-2 border-green-500">
+    <div class="text-5xl font-extrabold text-green-300">SOM</div>
+    <div class="text-3xl mt-4 font-bold">$50M–$150M</div>
+    <div class="text-xl mt-3 opacity-90">~50–150 startups</div>
+    <div class="text-lg mt-4 opacity-80">Captura realista 3-5 años</div>
+  </div>
+</div>
+
+<div class="mt-12 text-xl font-semibold opacity-90">
+  TAM (100%) → SAM (~10-20%) → SOM (~1-5%)
+</div>
+
+<div class="mt-4 text-lg opacity-70">
+  Fuentes: Tracxn 2026, Emerge Deep Tech Radar 2025, StartUs Insights
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">6/22</span>
 </div>
 
 ---
@@ -353,7 +392,7 @@ Si founders de startups con base científica y tecnológica desarrollan <RoughMa
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">6/21</span>
+  <span class="text-gray-400">7/22</span>
 </div>
 
 ---
@@ -369,7 +408,7 @@ zoom: 0.9
 
 <v-click>
 
-## Somos **una comunidad de aprendizaje entre pares enfocado en startup de LATAM** que ofrece:
+## Somos **una comunidad de aprendizaje entre pares enfocado en evolucionar el modelo de "startup con impacto+" de LATAM** y ofrecemos:
 
 </v-click>
 
@@ -408,7 +447,7 @@ zoom: 0.9
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">7/21</span>
+  <span class="text-gray-400">8/22</span>
 </div>
 
 ---
@@ -479,7 +518,7 @@ Startups con impacto+ necesitan <strong>antifragilidad</strong> para construir i
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">8/21</span>
+  <span class="text-gray-400">9/22</span>
 </div>
 
 ---
@@ -552,8 +591,9 @@ De <span class="text-red-400">frágil</span> → <span class="text-green-400">An
   </div>
 </div>
 
-<div class="mt-4 text-center text-sm italic opacity-70">
-80% suben <span class="text-green-400 font-bold">≥2 niveles</span> de Antifragilidad en 12 meses
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">10/22</span>
 </div>
 
 ---
@@ -601,7 +641,6 @@ layout: center
   <!-- EO (cuadrante inferior izquierdo) -->
   <div class="absolute bottom-[100px] left-[170px] w-[160px] h-[90px] bg-gray-600 rounded-lg flex flex-col items-center justify-center">
     <div class="font-bold text-xl text-white">Vistage</div>
-    <div class="text-xs text-gray-300 mt-1">Resultados tardíos</div>
   </div>
   
   <!-- Vistage (cuadrante inferior derecho) -->
@@ -613,7 +652,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">10/21</span>
+  <span class="text-gray-400">11/22</span>
 </div>
 
 ---
@@ -666,36 +705,42 @@ zoom: 0.9
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">11/21</span>
+  <span class="text-gray-400">12/22</span>
 </div>
 
 ---
 layout: center
+zoom:0.7
 ---
 
 <!-- SLIDE 12 -->
 # Propuesta económica para Founders
 
-<div class="grid grid-cols-2 gap-8 items-start">
+<div class="mb-4 p-3 bg-blue-500/10 border-l-4 border-blue-500 rounded text-sm">
+  <div class="text-gray-100">
+    <strong>Las startups de base científica y tecnológica pagan $1500 USD por trimestre</strong> para acceder a grupo de aprendizaje entre pares, assessment "antifragilidad" y acompañamiento estratégico.
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-6 items-start text-sm">
 
 <div>
 
-<div class="text-2xl font-bold mb-4">Pricing</div>
+<div class="text-xl font-bold mb-3">Pricing</div>
 
 | Categoría | Mensual | Anual      |
 | --------- | ------- | ---------- |
-| Regular   | $500    | $5,400     |
-| ClimaTech | $450    | **$4,800** |
+| Regular   | $500    | $6,000     |
+| ClimaTech | $400    | **$4,800** |
 
 <v-click>
 
 **Comparación:**
-
 - Círculos Impacto+: **$400-500/mes**
 - YPO/EO: $1,000-1,250/mes
 - Vistage: $1,250-2,100/mes
 
-<div class="text-2xl font-bold text-green-500">
+<div class="text-lg font-bold text-green-500 mt-2">
 50-70% más accesible
 </div>
 
@@ -707,32 +752,28 @@ layout: center
 
 <v-click>
 
-<div class="text-2xl font-bold mb-4">Qué Incluye (12 meses)</div>
+<div class="text-xl font-bold mb-3">Qué Incluye</div>
 
-<div class="space-y-1">
+<ul class="list-none text-sm space-y-1">
+  <li>✅ 4 Encuentros presenciales (trimestrales)</li>
+  <li>✅ Acceso al producto "Assessment Antifragilidad"</li>
+  <li>✅ 2-3 Sesiones 1:1 para clarificación de desafíos</li>
+  <li>✅ Invitación a eventos de la comunidad</li>
+</ul>
 
-✅ 4 Encuentros presenciales (trimestrales)  
-✅ Acceso al producto "Assessment Antifragilidad"  
-✅ 2-3 Sesiones 1:1 para clarificación desafíos  
-✅ Invitación a eventos de la comunidad
-
+<div class="mt-2 text-sm">
+  <strong>Compromiso:</strong> Trimestral (vs anual otros)
 </div>
-
-**Compromiso:** Trimestral (vs anual otros)
 
 </v-click>
 
 <v-click>
-<div class="mt-3 p-3 bg-orange-500/20 border-2 border-orange-500 rounded-lg text-sm">
-<div class="text-xl mb-1">🎁</div>
-<div class="text-base font-bold text-orange-400">Early Bird Bonus</div>
-<div class="text-xs mt-1 mb-1">
-Primeras 10 startups en Q1 2026:
+<div class="mt-2 p-2 bg-orange-500/20 border-2 border-orange-500 rounded text-xs">
+<div class="font-bold text-orange-400 mb-1">🎁 Early Bird Bonus</div>
+<div class="text-green-400 font-bold leading-tight mb-1">
+Revisión trimestral del Score gratis (1 año + 2 sesiones)
 </div>
-<div class="text-xs font-bold text-green-400 leading-tight">
-Servicio de revisión trimestral del "Score Antifragilidad" sin costo por 1 año con 2 sesiones de acompañamiento
-</div>
-<div class="text-xs opacity-70 mt-1">
+<div class="opacity-70">
 (Valor: $10K USD/anual)
 </div>
 </div>
@@ -744,7 +785,7 @@ Servicio de revisión trimestral del "Score Antifragilidad" sin costo por 1 año
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">12/21</span>
+  <span class="text-gray-400">13/22</span>
 </div>
 
 ---
@@ -758,21 +799,21 @@ class: text-center
 <div class="grid grid-cols-3 gap-8 pt-12">
 
 <div v-click>
-<div class="text-5xl font-bold text-green-500">$40k</div>
+<div class="text-5xl font-bold text-green-500">$50k</div>
 <div class="text-xl">ARR por grupo</div>
 <div class="text-sm text-gray-400">(10 founders)</div>
 </div>
 
 <div v-click>
-<div class="text-5xl font-bold text-blue-500">$330</div>
+<div class="text-5xl font-bold text-blue-500">$1578</div>
 <div class="text-xl">CAC por cliente</div>
 <div class="text-sm text-gray-400">(ultra-eficiente)</div>
 </div>
 
 <div v-click>
-<div class="text-5xl font-bold text-green-500">121x</div>
+<div class="text-5xl font-bold text-green-500">31x</div>
 <div class="text-xl">LTV:CAC ratio</div>
-<div class="text-sm text-gray-400">(payback 3 días)</div>
+<div class="text-sm text-gray-400">(payback 12-15 días)</div>
 </div>
 
 </div>
@@ -781,63 +822,63 @@ class: text-center
 
 **Por Grupo (10 founders):**
 
-- ARR: $40,128
-- Egresos: $38,114 (50% facilitadores + eventos + ops)
-- Balance: $2,014
-- **Margen Bruto: 50% | Margen Neto: 5%**
+- ARR: $50,160
+- Egresos: $46,605 (50% facilitadores + marketing + ops)
+- Balance: $3,555
+- **Margen Bruto: 50% | Margen Neto: 7%**
 
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">13/21</span>
+  <span class="text-gray-400">14/22</span>
 </div>
 
 ---
 layout: center
+class: text-xs leading-tight
 ---
 
-<!-- SLIDE 14 -->
-# Mirada de negocio | Egresos
+# Egresos Piloto
 
-<div class="pt-8">
 
-<div class="text-2xl font-bold text-center text-blue-500">
-Validar modelo con 1 grupo piloto antes de expansión orgánica
-</div>
 
 <v-click>
 
-<div class="pt-8 grid grid-cols-2 gap-6 text-sm">
+<div class="grid grid-cols-2 gap-3">
 
 <div>
 
-| Item                 | Monto       | %        |
-| -------------------- | ----------- | -------- |
-| Eventos Q1 (4)       | $3,300      | 15%      |
-| Marketing inicial    | $5,000      | 23%      |
-| Facilitadores piloto | $5,000      | 23%      |
-| Operativa Q1         | $4,000      | 18%      |
-| Tech inicial         | $3,000      | 14%      |
-| Logística            | $1,500      | 7%       |
-| **Total**            | **$21,800** | **100%** |
+|Item                |Monto  |%|
+|--------------------|-------|--|
+|Facilitadores       |25k    |21.5|
+|Eventos Q1          |3.3k   |7  |
+|Marketing           |8.5k   |18 |
+|Gestión com.        |4k     |9  |
+|Operaciones         |1.5k   |3  |
+|Oficina virtual     |2k     |4  |
+|Logística           |1.25k  |3  |
+|Imprevistos         |1k     |2  |
+|**Total**           |**46.6k** |**100%**|
 
 </div>
 
-<div class="space-y-4">
+<div class="space-y-2">
 
-<div class="p-3 bg-blue-900 bg-opacity-30 rounded">
-<div class="font-bold">Q1 2026: Validación</div>
-- 8-10 founders grupo piloto  
-- 2 facilitadores senior  
-- 4 eventos adquisición  
-- Score baseline documentado  
+<div class="text-lg font-bold text-blue-400 text-left mb-2">
+Validar 1 piloto antes de escalar
 </div>
 
-<div class="p-3 bg-green-900 bg-opacity-30 rounded">
-<div class="font-bold">Desde M3</div>
-Programa autofinanciado  
-(cash flow positivo)
+<div class="p-2 bg-blue-900/50 rounded">
+Q1 2026: 8-10 founders · 2 senior · 4 eventos · antifragilidad
+</div>
+
+<div class="p-2 bg-green-900/50 rounded">
+Primeros meses con capital semilla + Q3+: Autofinanciado
+</div>
+
+<div class="p-2 bg-purple-900/50 rounded">
+Piloto $2k/mes para los facilitadores → luego 50% rev share
 </div>
 
 </div>
@@ -846,11 +887,8 @@ Programa autofinanciado
 
 </v-click>
 
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">14/21</span>
+<div class="abs-br m-3 text-xs text-gray-400">
+🏠 15/22
 </div>
 
 ---
@@ -880,7 +918,7 @@ layout: center
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
     <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Feedback 1:1 • Flexibilidad trimestral • NPS tracking</div>
+    <div class="text-xs">Feedback temprano y frecuente 1:1 • Flexibilidad trimestral • NPS tracking</div>
   </div>
 </div>
 
@@ -910,7 +948,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">15/21</span>
+  <span class="text-gray-400">16/22</span>
 </div>
 
 ---
@@ -973,7 +1011,7 @@ layout: center
 <div>✅ $160k ARR</div>
 <div>✅ Balance +$33k</div>
 <div>✅ NPS promedio ≥70</div>
-<div>✅ 50% mejoran Score 2+ categorias</div>
+<div>✅ 60% mejoran Score </div>
 </div>
 
 <div class="mt-4 p-2 bg-green-500/20 rounded text-xs font-bold text-green-400">
@@ -990,7 +1028,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">16/21</span>
+  <span class="text-gray-400">17/22</span>
 </div>
 
 ---
@@ -1030,7 +1068,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">17/21</span>
+  <span class="text-gray-400">18/22</span>
 </div>
 
 ---
@@ -1101,7 +1139,7 @@ Se rompe con shocks
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">18/21</span>
+  <span class="text-gray-400">19/22</span>
 </div>
 
 ---
@@ -1167,7 +1205,7 @@ Fuentes: Tracxn 2026, StartUs Insights 2025-2026, Emerge Deep Tech Radar LATAM 2
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">20/21</span>
+  <span class="text-gray-400">20/22</span>
 </div>
 
 ---
@@ -1232,80 +1270,53 @@ Captura realista del SOM:
 </div>
 </v-click>
 
----
-layout: center
-class: text-center
-zoom: 0.8
----
-
-# Tamaño del Mercado: TAM / SAM / SOM  
-(Proporciones visuales 2025-2026)
-
-<div class="grid grid-cols-3 gap-6 mt-10 items-start">
-  <div class="p-8 bg-blue-900/50 rounded-xl border-2 border-blue-500">
-    <div class="text-5xl font-extrabold text-blue-300">TAM</div>
-    <div class="text-3xl mt-4 font-bold">$8B+ ecosistema</div>
-    <div class="text-xl mt-3 opacity-90">~1.300–1.500 startups</div>
-    <div class="text-lg mt-4 opacity-80">Mercado total deep tech LATAM</div>
-  </div>
-
-  <div class="p-8 bg-purple-900/50 rounded-xl border-2 border-purple-500">
-    <div class="text-5xl font-extrabold text-purple-300">SAM</div>
-    <div class="text-3xl mt-4 font-bold">$1.5B inversión</div>
-    <div class="text-xl mt-3 opacity-90">~300–500 impacto</div>
-    <div class="text-lg mt-4 opacity-80">Segmento alcanzable (impacto + cleantech)</div>
-  </div>
-
-  <div class="p-8 bg-green-900/50 rounded-xl border-2 border-green-500">
-    <div class="text-5xl font-extrabold text-green-300">SOM</div>
-    <div class="text-3xl mt-4 font-bold">$50M–$150M</div>
-    <div class="text-xl mt-3 opacity-90">~50–150 startups</div>
-    <div class="text-lg mt-4 opacity-80">Captura realista 3-5 años</div>
-  </div>
-</div>
-
-<div class="mt-12 text-xl font-semibold opacity-90">
-  TAM (100%) → SAM (~10-20%) → SOM (~1-5%)
-</div>
-
-<div class="mt-4 text-lg opacity-70">
-  Fuentes: Tracxn 2026, Emerge Deep Tech Radar 2025, StartUs Insights
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">21/22</span>
 </div>
 
 ---
 layout: center
 class: text-center
+zoom:0.7
 ---
 
 <!-- SLIDE 21 -->
-# ¿Listo para construir antifragilidad?
+## ¿Tu negocio <span v-mark.circle.orange=".5">**mejora**</span> o se **rompe** con los cambios de contexto?
 
-<div class="pt-12 space-y-8">
+<div class="space-y-10">
 
-<div class="text-4xl font-bold text-green-400">
-Hagamos que más startups con foco en impacto+ sobrevivan y escalen
-</div>
+  <v-click>
+  <div class="text-2xl font-bold text-green-400"> 
+    Hagamos que más startups con foco en impacto+ sobrevivan y escalen
+  </div>
+  </v-click>
 
-<div class="text-2xl">
-📧 Contacto: roldanjorgex@gmail.com <br/>
-🌐 Web: climatech.ar<br/>
-📱 WhatsApp: +541160135064
-</div>
+  <v-click>
+  <div class="text-lg text-gray-300">
+    <strong>Próximos pasos:</strong><br/>
+    1️⃣ Cafecitos con Founders (30 min c/u)<br/>
+    2️⃣ Assessment Antifragilidad sin costo<br/>
+    3️⃣ Propuesta personalizada "Early Birds"<br/>
+  </div>
+  </v-click>
 
-<v-click>
-
-<div class="pt-8 text-xl text-gray-300">
-<strong>Próximos pasos:</strong><br/>
-1️⃣ Cafecitos con Founders (30 min c/u)<br/>
-2️⃣ Ofrecer "Assessment Antifragilidad" sin costo<br/>
-3️⃣ Hacer una propuesta personalizada "Early Birds"<br/>
-</div>
-
-</v-click>
+  <!-- QR centrado + frase centrada abajo -->
+  <v-click>
+  <div class="flex flex-col items-center gap-4">
+    <img src="/img/wa-qr.png"
+         alt="QR WhatsApp"
+         class="w-36 h-36 p-2 bg-white rounded-lg" />
+    <div class="text-lg text-gray-100 text-center">
+      Si te interesó esta iniciativa,<br/>
+      escribime por WhatsApp y conversamos.
+    </div>
+  </div>
+  </v-click>
 
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">21/21</span>
+  <span class="text-gray-400">22/22</span>
 </div>
