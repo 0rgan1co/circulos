@@ -1227,53 +1227,62 @@ zoom: 0.85
   <div class="font-bold">1</div>
   <div>4</div>
   <div>40</div>
-  <div>$160k</div>
-  <div>$33k</div>
+  <div>$201k</div>
+  <div>$14k</div>
 
   <div class="font-bold">2</div>
-  <div>10</div>
-  <div>100</div>
-  <div>$400k</div>
-  <div>$120k</div>
+  <div>8</div>
+  <div>80</div>
+  <div>$401k</div>
+  <div>$28k</div>
 
   <div class="font-bold">3</div>
-  <div>14</div>
-  <div>140</div>
-  <div>$560k</div>
-  <div>$168k</div>
+  <div>12</div>
+  <div>120</div>
+  <div>$602k</div>
+  <div>$43k</div>
 
   <div class="font-bold">4</div>
-  <div>17</div>
-  <div>170</div>
-  <div>$680k</div>
-  <div>$204k</div>
+  <div>16</div>
+  <div>160</div>
+  <div>$803k</div>
+  <div>$57k</div>
 
   <div class="font-bold text-green-400">5</div>
-  <div>18–19</div>
-  <div><span class="text-green-400 font-bold">180–185</span></div>
-  <div class="text-green-400 font-bold">$720k – $740k</div>
-  <div class="text-green-400 font-bold">$216k – $222k</div>
+  <div>19–20</div>
+  <div><span class="text-green-400 font-bold">190–200</span></div>
+  <div class="text-green-400 font-bold">$953k–$1.0M</div>
+  <div class="text-green-400 font-bold">$68k–$71k</div>
 
 </div>
 
 <v-click>
 <div class="mt-6 p-4 bg-green-500/20 border-2 border-green-500 rounded-lg text-sm text-center">
 <div class="text-xl mb-4">🎯</div>
-<div class="text-xl font-bold text-green-400">Objetivo Año 5</div>
+<div class="text-xl font-bold text-green-400">Objetivo Año 5 (Conservador)</div>
 <div class="text-xl mt-1 mb-1">
 Captura realista del SOM:
 </div>
 <div class="text-xl font-bold text-white leading-tight">
-~180–185 founders  
-(≈1% del mercado alcanzable, $720k–$740k ARR)
+~190–200 founders  
+(≈1.1% del mercado alcanzable, ~$1M ARR)
 </div>
 </div>
 </v-click>
 
+<div class="abs-bl m-6 text-xs">
+<a href="https://docs.google.com/spreadsheets/d/1vuueQ1KsssOcFZCqQ0wkBhfWKdBLhUwi/edit?usp=sharing" 
+   target="_blank" 
+   class="text-blue-400 hover:text-blue-300">
+📊 Caso de negocio detallado
+</a>
+</div>
+
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">21/22</span>
+  <span class="text-gray-400">19/22</span>
 </div>
+
 
 ---
 layout: center
