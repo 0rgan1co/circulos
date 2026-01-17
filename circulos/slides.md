@@ -394,7 +394,7 @@ zoom: 0.9
 
 <v-click>
 
-## Somos **una comunidad de aprendizaje entre pares enfocado en evolucionar el modelo de "startup con impacto+" en el Sur Global** y ofrecemos:
+## Somos **una comunidad de aprendizaje entre pares enfocado en evolucionar el modelo de "startups con impacto+" en el Sur Global** y ofrecemos:
 
 </v-click>
 
@@ -714,15 +714,15 @@ zoom: 0.75
   </div>
   
   <!-- CREA - Impacto + Adaptabilidad (Superior Derecho) -->
-  <div class="absolute flex items-center gap-2" style="right: 25%; top: 25%;">
+  <div class="absolute flex items-center gap-2" style="right: 35%; top: 25%;">
     <div class="w-4 h-4 rounded-full bg-blue-400"></div>
     <span class="text-xl font-bold text-blue-400">CREA</span>
   </div>
   
   <!-- Círculos - Impacto + Adaptabilidad (Superior Derecho) - LÍDER -->
-  <div class="absolute flex items-center gap-2" style="right: 10%; top: 15%;">
+  <div class="absolute flex items-center gap-2" style="right: -10%; top: 10%;">
     <div class="w-5 h-5 rounded-full bg-green-400"></div>
-    <span class="text-2xl font-bold text-green-400">Círculos</span>
+    <span class="text-2xl font-bold text-green-400">Círculos con Impacto+</span>
   </div>
   
   <!-- Peers SA - Adaptabilidad + Negocio (Inferior Derecho) -->
@@ -744,9 +744,9 @@ zoom: 0.75
   </div>
   
   <!-- Endeavor - Adaptabilidad + Negocio (Inferior Derecho) -->
-  <div class="absolute flex items-center gap-2" style="right: 20%; bottom: 20%;">
+  <div class="absolute flex items-center gap-2" style="right: 20%; bottom: 10%;">
     <div class="w-4 h-4 rounded-full bg-blue-400"></div>
-    <span class="text-xl font-bold text-blue-400">Endeavor</span>
+    <span class="text-xl font-bold text-blue-400">Endeavor (red)</span>
   </div>
   
 </div>
