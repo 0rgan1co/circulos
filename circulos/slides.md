@@ -38,7 +38,6 @@ mdc: true
 </div>
 
 
-
 ---
 layout: center
 zoom: 0.8
@@ -313,7 +312,7 @@ Negocios con Impacto (Deep Tech / Base Científica-Tecnológica)
     <div class="text-5xl font-extrabold text-purple-300">SAM</div>
     <div class="text-3xl mt-4 font-bold">~$1.5B</div>
     <div class="text-xl mt-3 opacity-90">~1,300-1,500 startups</div>
-    <div class="text-base mt-4 opacity-80">Deep tech LATAM</div>
+    <div class="text-base mt-4 opacity-80">Deep tech América Latina</div>
     <div class="text-sm mt-2 opacity-70">(~340 VC-backed)</div>
   </div>
 
@@ -670,7 +669,85 @@ Startups con impacto+ necesitan <strong>antifragilidad</strong> para construir i
   <span class="text-gray-400">10/21</span>
 </div>
 
+---
+layout: center
+zoom: 0.75
+---
 
+<div class="text-center mb-12">
+  <h1 class="text-4xl font-bold">Posicionamiento Competitivo</h1>
+</div>
+
+<div class="relative" style="height: 500px; width: 900px; margin: 0 auto;">
+  
+  <!-- Línea vertical (Eje Y) -->
+  <div class="absolute bg-gray-500" style="left: 50%; top: 0; bottom: 0; width: 1px;"></div>
+  
+  <!-- Línea horizontal (Eje X) -->
+  <div class="absolute bg-gray-500" style="top: 50%; left: 0; right: 0; height: 1px;"></div>
+  
+  <!-- Etiqueta Eje Y Superior (NARANJA) -->
+  <div class="absolute text-sm font-semibold text-orange-400" style="left: 50%; top: -30px; transform: translateX(-50%);">
+    ↑ Foco en Impacto (relaciones, resultados)
+  </div>
+  
+  <!-- Etiqueta Eje Y Inferior (GRIS) -->
+  <div class="absolute text-sm text-gray-400 font-semibold" style="left: 50%; bottom: -30px; transform: translateX(-50%);">
+    ↓ Foco en Negocio (resultados)
+  </div>
+  
+  <!-- Etiqueta Eje X Izquierda (GRIS) -->
+  <div class="absolute text-sm text-gray-400 font-semibold" style="left: -100px; top: 50%; transform: translateY(-50%);">
+    ← Predictibilidad
+  </div>
+  
+  <!-- Etiqueta Eje X Derecha (NARANJA) -->
+  <div class="absolute text-sm font-semibold text-orange-400" style="right: -120px; top: 50%; transform: translateY(-50%);">
+    Adaptabilidad →
+  </div>
+  
+  <!-- CREA - Impacto + Adaptabilidad (Superior Derecho) -->
+  <div class="absolute flex items-center gap-2" style="right: 25%; top: 25%;">
+    <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+    <span class="text-xl font-bold text-blue-400">CREA</span>
+  </div>
+  
+  <!-- Círculos - Impacto + Adaptabilidad (Superior Derecho) - LÍDER -->
+  <div class="absolute flex items-center gap-2" style="right: 10%; top: 15%;">
+    <div class="w-5 h-5 rounded-full bg-green-400"></div>
+    <span class="text-2xl font-bold text-green-400">Círculos</span>
+  </div>
+  
+  <!-- Peers SA - Adaptabilidad + Negocio (Inferior Derecho) -->
+  <div class="absolute flex items-center gap-2" style="right: 28%; bottom: 25%;">
+    <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+    <span class="text-xl font-bold text-blue-400">Peers SA</span>
+  </div>
+  
+  <!-- EO - Adaptabilidad + Negocio (Inferior Derecho) -->
+  <div class="absolute flex items-center gap-2" style="right: 15%; bottom: 32%;">
+    <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+    <span class="text-xl font-bold text-blue-400">EO</span>
+  </div>
+  
+  <!-- Vistage - Predictibilidad + Negocio (Inferior Izquierdo) -->
+  <div class="absolute flex items-center gap-2" style="left: 25%; bottom: 28%;">
+    <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+    <span class="text-xl font-bold text-blue-400">Vistage</span>
+  </div>
+  
+  <!-- Endeavor - Adaptabilidad + Negocio (Inferior Derecho) -->
+  <div class="absolute flex items-center gap-2" style="right: 20%; bottom: 20%;">
+    <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+    <span class="text-xl font-bold text-blue-400">Endeavor</span>
+  </div>
+  
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">11/21</span>
+</div>
 
 ---
 layout: center
@@ -1272,8 +1349,7 @@ zoom:0.7
          alt="QR WhatsApp"
          class="w-36 h-36 p-2 bg-white rounded-lg" />
     <div class="text-lg text-gray-100 text-center">
-      Si te interesa profundizar,<br/>
-      escribime por WhatsApp y conversamos.
+      ¿Preguntas?<br/>
     </div>
   </div>
   </v-click>
@@ -1283,21 +1359,4 @@ zoom:0.7
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
   <span class="text-gray-400">20/21</span>
-</div>
-
----
-layout: center
-class: text-center
----
-
-<!-- SLIDE 21 -->
-# ¡Gracias!
-
-<div class="text-xl pt-8">
-¿Preguntas?
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">21/21</span>
 </div>
