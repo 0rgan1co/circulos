@@ -940,11 +940,9 @@ class: text-xs leading-tight
 <!-- SLIDE 14 -->
 # Egresos Piloto
 
-
-
 <v-click>
 
-<div class="grid grid-cols-2 gap-3">
+<div class="grid grid-cols-2 gap-4">
 
 <div>
 
@@ -957,22 +955,50 @@ class: text-xs leading-tight
 
 </div>
 
+<div class="space-y-3">
+
+<div class="text-base font-bold text-blue-400 text-left mb-3">
+Objetivo: Validar modelo en Q1 2026
+</div>
+
 <div class="space-y-2">
 
-<div class="text-lg font-bold text-blue-400 text-left mb-2">
-Validar 1 piloto antes de escalar
+<div class="p-2 bg-blue-900/40 rounded border-l-2 border-blue-400">
+<div class="font-semibold text-blue-300">Facilitadores (54%)</div>
+<ul class="text-[10px] mt-1 ml-3 space-y-0.5">
+  <li>2 senior × 4 meses × $2k/mes</li>
+  <li>8-10 founders validados</li>
+  <li>Autogestión del "Score Antifragilidad"</li>
+  <li>Facilitación de encuentros para refinar plan de mejora con ROI</li>
+</ul>
+<div class="text-[10px] text-blue-200 mt-1">→ Brechas antifragilidad identificadas + Q4: nuevas fuentes de ingreso</div>
 </div>
 
-<div class="p-2 bg-blue-900/50 rounded">
-Q1 2026: 8-10 founders · 2 senior · 4 eventos · antifragilidad
+<div class="p-2 bg-green-900/40 rounded border-l-2 border-green-400">
+<div class="font-semibold text-green-300">Marketing (37%)</div>
+<ul class="text-[10px] mt-1 ml-3 space-y-0.5">
+  <li>Campaña digital en amplitud</li>
+  <li>4 eventos presenciales para posicionar y enrolar</li>
+  <li>Alianzas con jugadores clave del ecosistema</li>
+  <li>Research "Historias con evidencia"</li>
+</ul>
+<div class="text-[10px] text-green-200 mt-1">→ Pipeline 100 founders + Posicionamiento + Evidencia ClimaTech</div>
 </div>
 
-<div class="p-2 bg-green-900/50 rounded">
-Primeros meses con capital semilla + Q3+: Autofinanciado
+<div class="p-2 bg-purple-900/40 rounded border-l-2 border-purple-400">
+<div class="font-semibold text-purple-300">Operaciones (9%)</div>
+<ul class="text-[10px] mt-1 ml-3 space-y-0.5">
+  <li>Gestión integral</li>
+  <li>Herramientas colaboración</li>
+  <li>Logística + imprevistos</li>
+</ul>
+<div class="text-[10px] text-purple-200 mt-1">→ Infraestructura mínima viable escalable</div>
 </div>
 
-<div class="p-2 bg-purple-900/50 rounded">
-Piloto $2k/mes para los facilitadores → luego 50% rev share
+</div>
+
+<div class="p-2 bg-gray-800/60 rounded mt-2 text-[10px] text-center">
+💡 Capital semilla Q1-Q2 → Autofinanciado desde Q3 (ingresos recurrentes)
 </div>
 
 </div>
@@ -997,34 +1023,34 @@ layout: center
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Churn Alto (>10%)</div>
-    <div class="text-xs opacity-80">Founders abandonan el programa o resistencia a "data room" abierto</div>
-  </div>
-  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
-    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Criterios de selección • NPS + Feedback temprano y frecuente • NDA</div>
-  </div>
-</div>
-
-<div v-click class="grid grid-cols-2 gap-4">
-  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Calidad Facilitadores</div>
-    <div class="text-xs opacity-80">Facilitadores sin expertise suficiente</div>
-  </div>
-  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
-    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Red de confianza con experiencia • Ganancias 50/50 • NPS ≥75</div>
-  </div>
-</div>
-
-<div v-click class="grid grid-cols-2 gap-4">
-  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
     <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 3: Masa Crítica Insuficiente</div>
     <div class="text-xs opacity-80">No alcanzar 8-10 founders</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
     <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Startups Insignia • Eventos atractivos • Precio especial para Aliados clave </div>
+    <div class="text-xs">Startups Hook • Eventos atractivos • Precio especial para Aliados clave </div>
+  </div>
+</div>
+
+<div v-click class="grid grid-cols-2 gap-4">
+  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Churn Alto (>10%)</div>
+    <div class="text-xs opacity-80">Founders abandonan el programa por resistencia a la transparencia</div>
+  </div>
+  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
+    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
+    <div class="text-xs">Proceso de postulación y de selección • Acuerdos de respeto y confidencialidad </div>
+  </div>
+</div>
+
+<div v-click class="grid grid-cols-2 gap-4">
+  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Calidad del grupo</div>
+    <div class="text-xs opacity-80">Facilitadores sin expertise suficiente</div>
+  </div>
+  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
+    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
+    <div class="text-xs">Pares comprometidos • Facilitadores con experiencia • NPS ≥75</div>
   </div>
 </div>
 
