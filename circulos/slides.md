@@ -1,4 +1,4 @@
----
+"---
 theme: default
 background: https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920
 class: text-center
@@ -721,7 +721,7 @@ zoom: 0.75
   <!-- Peers SA - Adaptabilidad + Negocio (Inferior Derecho) -->
   <div class="absolute flex items-center gap-2" style="right: 28%; bottom: 25%;">
     <div class="w-4 h-4 rounded-full bg-blue-400"></div>
-    <span class="text-xl font-bold text-blue-400">Peers SA</span>
+    <span class="text-xl font-bold text-blue-400">Peers</span>
   </div>
   
   <!-- EO - Adaptabilidad + Negocio (Inferior Derecho) -->
@@ -1360,3 +1360,4 @@ zoom:0.7
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
   <span class="text-gray-400">20/21</span>
 </div>
+"
