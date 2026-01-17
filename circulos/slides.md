@@ -209,7 +209,7 @@ layout: center
 </div>
 
 <div v-click class="pt-4 text-lg text-orange-500">
-🚨 Algunas de las causas son la <span class="font-bold">FRAGILIDAD del negocio y la SOLEDAD del founder</span>
+🚨 Algunas de las causas que nos ocupan son la <span class="font-bold">FRAGILIDAD del negocio y la SOLEDAD del founder</span>
 </div>
 
 <div v-click class="mt-4">
