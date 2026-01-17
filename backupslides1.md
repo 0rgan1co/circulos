@@ -28,7 +28,7 @@ mdc: true
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
-  <span class="text-gray-400">1/21</span>
+  <span class="text-gray-400">1/22</span>
 </div>
 
 <div class="absolute bottom-6 left-6 right-6 p-1 rounded-lg backdrop-blur-md bg-black bg-opacity-50 shadow-lg border border-white border-opacity-20">
@@ -41,7 +41,6 @@ mdc: true
 
 ---
 layout: center
-zoom: 0.8
 ---
 
 <!-- SLIDE 2 -->
@@ -52,7 +51,7 @@ zoom: 0.8
 <div v-click>
 <div class="text-2xl font-bold text-green-500">🎯 El Problema</div>
 <div class="text-sm pt-2 text-gray-300">
-¿Cómo evitar la soledad del founder y la fragilidad del negocio?
+¿Por qué mueren 9 de cada 10 startups climate tech?
 </div>
 </div>
 
@@ -64,72 +63,44 @@ zoom: 0.8
 </div>
 
 <div v-click>
-<div class="text-2xl font-bold text-purple-500">📊 Tamaño del Mercado</div>
-<div class="text-sm pt-2 text-gray-300">
-¿Cuántas startups hay en América Latina? (TAM/SAM/SOM)
-</div>
-</div>
-
-<div v-click>
 <div class="text-2xl font-bold text-orange-500">🔬 La Solución</div>
 <div class="text-sm pt-2 text-gray-300">
-¿Qué es Círculos Impacto+ y cómo funciona?
+¿Qué nos diferencia de otros programas para startups?
 </div>
 </div>
 
 <div v-click>
-<div class="text-2xl font-bold text-yellow-500">🌍 Teoría del Cambio</div>
+<div class="text-2xl font-bold text-yellow-500">📊 La Promesa</div>
 <div class="text-sm pt-2 text-gray-300">
-¿Cómo generamos impacto sistémico? (Doughnut Economics)
+¿Cómo medimos el éxito de nuestro programa?
 </div>
 </div>
 
 <div v-click>
-<div class="text-2xl font-bold text-cyan-500">⚡ ¿Por qué ahora?</div>
+<div class="text-2xl font-bold text-purple-500">💰 El Modelo</div>
 <div class="text-sm pt-2 text-gray-300">
-Ventana 2026-2027: Colaboración + IA + Nichos emergentes
+¿Cómo funciona y cómo es el reparto de ganancias?
 </div>
 </div>
 
 <div v-click>
-<div class="text-2xl font-bold text-pink-500">🎯 Posicionamiento</div>
+<div class="text-2xl font-bold text-pink-500">📈 Viabilidad</div>
 <div class="text-sm pt-2 text-gray-300">
-¿Cómo nos diferenciamos de YPO, Endeavor y Vistage?
-</div>
-</div>
-
-<div v-click>
-<div class="text-2xl font-bold text-green-500">💰 Modelo de Negocio</div>
-<div class="text-sm pt-2 text-gray-300">
-¿Cuánto cuesta? ¿Cómo son los números?
+¿Es viable? ¿Cuáles son los números?
 </div>
 </div>
 
 <div v-click>
 <div class="text-2xl font-bold text-red-500">⚠️ Los Riesgos</div>
 <div class="text-sm pt-2 text-gray-300">
-¿Qué puede salir mal y cómo mitigamos?
+¿Qué puede salir mal y cómo nos protegemos?
 </div>
 </div>
 
 <div v-click>
-<div class="text-2xl font-bold text-blue-500">🚀 Roadmap 2026</div>
+<div class="text-2xl font-bold text-green-500">🚀 El Plan</div>
 <div class="text-sm pt-2 text-gray-300">
-Q1 Validación → Q2 Expansión → Q3-Q4 Escala
-</div>
-</div>
-
-<div v-click>
-<div class="text-2xl font-bold text-purple-500">📈 Crecimiento 5 Años</div>
-<div class="text-sm pt-2 text-gray-300">
-De 20 startups (año 1) a 100 startups (año 5)
-</div>
-</div>
-
-<div v-click>
-<div class="text-2xl font-bold text-orange-500">📚 Apéndice</div>
-<div class="text-sm pt-2 text-gray-300">
-Framework Score + Referencias + Oportunidad de Mercado
+¿Cuál es el roadmap para 2026 y más allá?
 </div>
 </div>
 
@@ -141,9 +112,8 @@ Framework Score + Referencias + Oportunidad de Mercado
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">2/21</span>
+  <span class="text-gray-400">2/22</span>
 </div>
-
 
 ---
 layout: center
@@ -151,7 +121,6 @@ class: text-center
 zoom: 0.85
 ---
 
-<!-- SLIDE 3 -->
 # ¿Tu negocio **mejora** o se **rompe** con los <span v-mark.circle.orange="0">cambios de contexto</span>?
 
 <div class="grid grid-cols-2 gap-16 mt-12 text-left">
@@ -170,7 +139,7 @@ zoom: 0.85
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">3/21</span>
+  <span class="text-gray-400">3/22</span>
 </div>
 
 ---
@@ -205,7 +174,7 @@ layout: center
 </div>
 
 <div v-click class="pt-4 text-lg text-orange-500">
-🚨 El problema es la <span class="font-bold">FRAGILIDAD y la SOLEDAD</span> ante la incertidumbre
+🚨 El problema es la <span class="font-bold">FRAGILIDAD</span> ante la incertidumbre
 </div>
 
 <div v-click class="mt-4">
@@ -252,7 +221,7 @@ Fuente: <a href="https://www.cbinsights.com/research/report/startup-failure-reas
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">4/21</span>
+  <span class="text-gray-400">4/22</span>
 </div>
 
 ---
@@ -284,96 +253,147 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">5/21</span>
+  <span class="text-gray-400">5/22</span>
 </div>
 
 ---
 layout: center
 class: text-center
-zoom: 0.75
+zoom: 0.8
 ---
 
-<!-- SLIDE 6 -->
 # Tamaño del Mercado
 
-<div class="text-lg text-green-400 mb-8">
-Negocios con Impacto (Deep Tech / Base Científica-Tecnológica)
-</div>
-
-<div class="grid grid-cols-3 gap-6 mt-6 items-start">
+<div class="grid grid-cols-3 gap-6 mt-10 items-start">
   <div class="p-8 bg-blue-900/50 rounded-xl border-2 border-blue-500">
     <div class="text-5xl font-extrabold text-blue-300">TAM</div>
-    <div class="text-3xl mt-4 font-bold">$714B-$5T+</div>
-    <div class="text-xl mt-3 opacity-90">~91,500 startups</div>
-    <div class="text-base mt-4 opacity-80">Deep tech mundial activas</div>
-    <div class="text-sm mt-2 opacity-70">(~30K funded)</div>
+    <div class="text-3xl mt-4 font-bold">$8B+ ecosistema</div>
+    <div class="text-xl mt-3 opacity-90">~1.300–1.500 startups</div>
+    <div class="text-lg mt-4 opacity-80">Mercado total deep tech LATAM</div>
   </div>
 
   <div class="p-8 bg-purple-900/50 rounded-xl border-2 border-purple-500">
     <div class="text-5xl font-extrabold text-purple-300">SAM</div>
-    <div class="text-3xl mt-4 font-bold">~$1.5B</div>
-    <div class="text-xl mt-3 opacity-90">~1,300-1,500 startups</div>
-    <div class="text-base mt-4 opacity-80">Deep tech LATAM</div>
-    <div class="text-sm mt-2 opacity-70">(~340 VC-backed)</div>
+    <div class="text-3xl mt-4 font-bold">$1.5B inversión</div>
+    <div class="text-xl mt-3 opacity-90">~300–500 impacto</div>
+    <div class="text-lg mt-4 opacity-80">Segmento alcanzable (impacto + cleantech)</div>
   </div>
 
   <div class="p-8 bg-green-900/50 rounded-xl border-2 border-green-500">
     <div class="text-5xl font-extrabold text-green-300">SOM</div>
-    <div class="text-3xl mt-4 font-bold">$30M-$75M</div>
-    <div class="text-xl mt-3 opacity-90">~50-100 startups</div>
-    <div class="text-base mt-4 opacity-80">Impacto+ capturable</div>
-    <div class="text-sm mt-2 opacity-70">3-5 años (beachhead)</div>
+    <div class="text-3xl mt-4 font-bold">$50M–$150M</div>
+    <div class="text-xl mt-3 opacity-90">~50–150 startups</div>
+    <div class="text-lg mt-4 opacity-80">Captura realista 3-5 años</div>
   </div>
 </div>
 
-<div class="mt-10 text-xl font-semibold opacity-90">
-  TAM (100%) → SAM (~1.6%) → SOM (~3.5-7%)
+<div class="mt-12 text-xl font-semibold opacity-90">
+  TAM (100%) → SAM (~10-20%) → SOM (~1-5%)
 </div>
 
-<div class="grid grid-cols-3 gap-4 mt-8 text-xs">
-  <div class="p-3 bg-blue-900/30 rounded border-t-2 border-blue-500">
-    <div class="font-bold text-blue-400 mb-1">🌍 Mundial</div>
-    <div>Inversión VC 2025: ~$217B</div>
-    <div>EE.UU./China/India lideran</div>
-    <div>AI, quantum, cleantech</div>
-  </div>
-
-  <div class="p-3 bg-purple-900/30 rounded border-t-2 border-purple-500">
-    <div class="font-bold text-purple-400 mb-1">🌎 América Latina</div>
-    <div>Brasil: 72% del ecosistema</div>
-    <div>Chile/ARG/MX/COL: 80% regional</div>
-    <div>Fondos + gobierno impulsan</div>
-  </div>
-
-  <div class="p-3 bg-green-900/30 rounded border-t-2 border-green-500">
-    <div class="font-bold text-green-400 mb-1">🎯 Nuestro Foco</div>
-    <div>50-100 startups impacto+</div>
-    <div>Cleantech/Biotech/Agritech</div>
-    <div>Series A-B con tracción</div>
-  </div>
-</div>
-
-<v-click>
-<div class="mt-6 p-3 bg-green-900/20 rounded border border-green-500 text-xs">
-<div class="font-bold text-green-400 mb-1">🚀 Por qué América Latina es clave</div>
-<div class="grid grid-cols-3 gap-2">
-<div>✅ Biodiversidad única</div>
-<div>✅ Necesidades climáticas urgentes</div>
-<div>✅ Escalabilidad regional → global</div>
-</div>
-</div>
-</v-click>
-
-<div class="text-[9px] mt-4 opacity-60">
-Fuentes: Tracxn 2026, Emerge Deep Tech Radar 2025, StartUs Insights, LAVCA 2025
+<div class="mt-4 text-lg opacity-70">
+  Fuentes: Tracxn 2026, Emerge Deep Tech Radar 2025, StartUs Insights
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">6/21</span>
+  <span class="text-gray-400">6/22</span>
 </div>
 
+---
+layout: center
+class: text-center
+zoom: 0.85
+---
 
+# Teoría del Cambio
+
+<div class="text-left max-w-5xl mx-auto pt-4 space-y-3">
+
+<div v-click class="p-4 bg-green-900/30 rounded border-l-4 border-green-500">
+<div class="text-lg font-bold text-green-400 mb-2">🌍 Hipótesis Central (basada en Doughnut Economics)</div>
+<div class="text-sm leading-relaxed">
+Si founders de startups con base científica y tecnológica desarrollan <RoughMarker type="circle" color="#f59e0b">antifragilidad</RoughMarker>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones regenerativas, operando dentro de los <RoughMarker type="circle" color="#10b981">límites planetarios</RoughMarker> mientras cubren las <strong>necesidades humanas fundamentales</strong>, generando <strong>cambio sistémico</strong>.
+</div>
+</div>
+
+<div class="grid grid-cols-5 gap-2 text-[10px]">
+
+<div v-click class="p-2 bg-blue-900/30 rounded border-t-3 border-blue-500">
+<div class="font-bold text-blue-400 mb-1 text-xs">INPUT</div>
+<div class="space-y-0.5">
+<div>• Framework Antifragilidad</div>
+<div>• Facilitadores comprometidos</div>
+<div>• Comunidad de pares</div>
+<div>• Tracking trimestral</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-cyan-900/30 rounded border-t-3 border-cyan-500">
+<div class="font-bold text-cyan-400 mb-1 text-xs">ACTIVIDADES</div>
+<div class="space-y-0.5">
+<div>• 4 encuentros presenciales</div>
+<div>• Sesiones 1:1</div>
+<div>• Assessment Score</div>
+<div>• Eventos comunidad</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-purple-900/30 rounded border-t-3 border-purple-500">
+<div class="font-bold text-purple-400 mb-1 text-xs">OUTPUT</div>
+<div class="space-y-0.5">
+<div>• Score mejora 2+ niveles</div>
+<div>• 3+ fuentes ingreso</div>
+<div>• Equipos empoderados</div>
+<div>• Decisiones con datos</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-orange-900/30 rounded border-t-3 border-orange-500">
+<div class="font-bold text-orange-400 mb-1 text-xs">OUTCOME</div>
+<div class="space-y-0.5">
+<div>• Mayor supervivencia (80%)</div>
+<div>• Diversificación ingresos</div>
+<div>• Autonomía y delegación</div>
+<div>• Escalamiento sostenible</div>
+</div>
+</div>
+
+<div v-click class="p-2 bg-green-900/30 rounded border-t-3 border-green-500">
+<div class="font-bold text-green-400 mb-1 text-xs">IMPACTO</div>
+<div class="space-y-0.5">
+<div>• <strong>Dentro límites planetarios:</strong> regeneración suelo/agua/aire</div>
+<div>• <strong>Sobre base social:</strong> trabajo digno, distribución valor</div>
+<div>• Innovación regenerativa en mercado</div>
+<div>• Transformación: de 30% riesgoso a 20% antifrágil</div>
+</div>
+</div>
+
+</div>
+
+<div v-click class="mt-4 text-left text-[10px] bg-blue-900/20 p-3 rounded border border-blue-500">
+  <div class="font-bold text-blue-300 mb-2">📊 Marco Doughnut Economics (DEAL)</div>
+  
+  <strong class="text-green-400">Límites Planetarios (techo):</strong> Cambio climático, biodiversidad, agua, suelo<br>
+  <strong class="text-orange-400">Base Social (suelo):</strong> Alimentación, salud, educación, trabajo digno, equidad
+  
+  <div class="mt-3 text-xs">
+    <a href="https://doughnuteconomics.org/" target="_blank" class="text-blue-300 hover:underline">doughnuteconomics.org</a><br>
+    DEAL = Doughnut Economics Action Lab<br>
+    <span class="italic opacity-80">Modelo para prosperar dentro de límites planetarios y por encima de necesidades sociales básicas</span>
+  </div>
+  
+  <div class="mt-2 italic opacity-75 text-center text-[9px]">
+    Espacio seguro y justo: entre ambos límites
+  </div>
+</div>
+
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">7/22</span>
+</div>
 
 ---
 layout: center
@@ -388,7 +408,7 @@ zoom: 0.9
 
 <v-click>
 
-## Somos **una comunidad de aprendizaje entre pares enfocado en evolucionar el modelo de "startup con impacto+" en el Sur Global** y ofrecemos:
+## Somos **una comunidad de aprendizaje entre pares enfocado en evolucionar el modelo de "startup con impacto+" en el Sur Global ** y ofrecemos:
 
 </v-click>
 
@@ -396,7 +416,7 @@ zoom: 0.9
 
 <div v-click>
 <div class="text-4xl">📊</div>
-<div class="font-bold text-green-500">Score Antifragilidad + Plan de mejora continua</div>
+<div class="font-bold text-green-500">Score Antifragilidad</div>
 <div class="text-sm">Framework propietario de 280 puntos, recolectando datos y evidencia</div>
 <a @click="$slidev.nav.go(18)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
   Ver detalle del Score (VALOR, FLUJO, PERSONAS, CULTURA, INNOVACIÓN) →
@@ -405,8 +425,8 @@ zoom: 0.9
 
 <div v-click>
 <div class="text-4xl">🤝</div>
-<div class="font-bold text-green-500">Acceso a Know-How con baja fricción</div>
-<div class="text-sm">Experiencias entre pares, agentes de cambio y expertos </div>
+<div class="font-bold text-green-500">Facilitadores experimentados y comprometidos</div>
+<div class="text-sm">50/50 revenue share, no salary fijo. Éxito acoplado</div>
 </div>
 
 <div v-click>
@@ -417,7 +437,7 @@ zoom: 0.9
 
 <div v-click>
 <div class="text-4xl">⚡</div>
-<div class="font-bold text-green-500">Flexible y accesible</div>
+<div class="font-bold text-green-500">Flexible y Accesible</div>
 <div class="text-sm">Trimestral ($400-500/mes) vs otros ($1,500+)</div>
 </div>
 
@@ -427,184 +447,15 @@ zoom: 0.9
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">7/21</span>
+  <span class="text-gray-400">8/22</span>
 </div>
 
 ---
 layout: center
 class: text-center
-zoom: 0.85
 ---
 
 <!-- SLIDE 8 -->
-# Movimientos clave
-
-<div v-click="1" class="text-2xl font-bold text-green-400 text-center pt-4 pb-2">
-De <span class="text-red-400">Fragilidad + Soledad + Extractivo</span> → <span class="text-green-400">Antifrágil + Colaborativo + Regenerativo</span>
-</div>
-
-<div v-click="2" class="grid grid-cols-5 items-center gap-2 text-center mb-4">
-  <div class="col-span-2 p-3 bg-red-900/50 rounded font-bold text-lg text-red-300">DESDE</div>
-  <div class="text-4xl font-bold text-gray-400">→</div>
-  <div class="col-span-2 p-3 bg-green-900/50 rounded font-bold text-lg text-green-300">HACIA</div>
-</div>
-
-<div class="grid grid-cols-1 gap-3 text-xs leading-tight">
-  <div v-click="3" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
-    <div class="col-span-2 text-center">
-      Pocas fuentes de ingresos<br><span class="text-red-300">Una fuente >70%</span>
-    </div>
-    <div></div>
-    <div class="col-span-2 text-center">
-      Varias fuentes de ingresos<br><span class="text-green-300">≥3 fuentes <40% dependencia</span>
-    </div>
-  </div>
-
-  <div v-click="4" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
-    <div class="col-span-2 text-center">
-      Alta dependencia founder<br><span class="text-red-300">Founder >70% decisiones</span>
-    </div>
-    <div></div>
-    <div class="col-span-2 text-center">
-      Baja dependencia founder<br><span class="text-green-300">Equipo >70% sin founder</span>
-    </div>
-  </div>
-
-  <div v-click="5" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
-    <div class="col-span-2 text-center">
-      Toma de decisiones sin datos<br><span class="text-red-300">Intuitivas / sin datos</span>
-    </div>
-    <div></div>
-    <div class="col-span-2 text-center">
-      Toma de decisiones con datos<br><span class="text-green-300">Rápidas + basadas en datos</span>
-    </div>
-  </div>
-
-  <div v-click="6" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
-    <div class="col-span-2 text-center">
-      Bajo respeto por el planeta<br><span class="text-red-300">Huella ignorada / creciente</span>
-    </div>
-    <div></div>
-    <div class="col-span-2 text-center">
-      Alto respeto por el planeta<br><span class="text-green-300">Huella medida + reducida</span>
-    </div>
-  </div>
-
-  <div v-click="7" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
-    <div class="col-span-2 text-center">
-      Bajo respeto por las personas<br><span class="text-red-300">Precario / inequidad</span>
-    </div>
-    <div></div>
-    <div class="col-span-2 text-center">
-      Alto respeto por las personas<br><span class="text-green-300">Salarios justos + equidad</span>
-    </div>
-  </div>
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">8/21</span>
-</div>
-
----
-layout: center
-class: text-center
-zoom: 0.7
----
-
-<!-- SLIDE 9 -->
-# Teoría del Cambio
-
-<div class="text-left max-w-6xl mx-auto pt-6 space-y-5">
-
-<div v-click="1" class="p-6 bg-green-900/30 rounded border-l-4 border-green-500">
-<div class="text-2xl font-bold text-green-400 mb-3">🌍 Hipótesis Central (basada en Doughnut Economics)</div>
-<div class="text-xl leading-relaxed">
-Si founders de startups con base científica y tecnológica desarrollan <RoughMarker type="circle" color="#f59e0b">antifragilidad</RoughMarker>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones regenerativas, operando dentro de los <RoughMarker type="circle" color="#10b981">límites planetarios</RoughMarker> mientras cubren las <strong>necesidades humanas fundamentales</strong>, generando <strong>cambio sistémico</strong>.
-</div>
-</div>
-
-<div class="grid grid-cols-5 gap-4 text-base">
-
-<div v-click="2" class="p-4 bg-blue-900/30 rounded border-t-4 border-blue-500">
-<div class="font-bold text-blue-400 mb-3 text-lg">INPUT</div>
-<div class="space-y-2 leading-relaxed">
-<div>• Framework Antifragilidad Score</div>
-<div>• Know-How curado</div>
-<div>• Experiencias y datos abiertos para compartir</div>
-<div>• Comunidad de pares</div>
-<div>• Tracking trimestral</div>
-</div>
-</div>
-
-<div v-click="3" class="p-4 bg-cyan-900/30 rounded border-t-4 border-cyan-500">
-<div class="font-bold text-cyan-400 mb-3 text-lg">ACTIVIDADES</div>
-<div class="space-y-2 leading-relaxed">
-<div>• 4 encuentros presenciales</div>
-<div>• Refinamiento de desafíos</div>
-<div>• Sesiones 1:1</div>
-<div>• Brechas Antifragilidad priorizadas</div>
-<div>• Eventos participativos</div>
-</div>
-</div>
-
-<div v-click="4" class="p-4 bg-purple-900/30 rounded border-t-4 border-purple-500">
-<div class="font-bold text-purple-400 mb-3 text-lg">OUTPUT</div>
-<div class="space-y-2 leading-relaxed">
-<div>• Plan de mejora continua</div>
-<div>• Acceso a expertos</div>
-<div>• Score mejora 2+ niveles</div>
-<div>• 3+ fuentes ingreso</div>
-<div>• Equipos empoderados</div>
-<div>• Decisiones con datos</div>
-</div>
-</div>
-
-<div v-click="5" class="p-4 bg-orange-900/30 rounded border-t-4 border-orange-500">
-<div class="font-bold text-orange-400 mb-3 text-lg">OUTCOME</div>
-<div class="space-y-2 leading-relaxed">
-<div>• Mayor supervivencia (80%)</div>
-<div>• Diversificación ingresos</div>
-<div>• Autonomía y delegación</div>
-<div>• Escalamiento sostenible</div>
-</div>
-</div>
-
-<div v-click="6" class="p-4 bg-green-900/30 rounded border-t-4 border-green-500">
-<div class="font-bold text-green-400 mb-3 text-lg">IMPACTO</div>
-<div class="space-y-2 leading-relaxed">
-<div>• <strong>Límites planetarios:</strong> regeneración suelo/agua/aire</div>
-<div>• <strong>Base social:</strong> trabajo digno, distribución valor</div>
-<div>• Referentes de Innovación regenerativa y Antifragilidad en mercado</div>
-</div>
-</div>
-
-</div>
-
-<div v-click="7" class="mt-2 text-[15px] bg-blue-900/15 p-1.5 rounded border border-blue-500/30 leading-tight">
-  <strong class="text-blue-300">📊 Marco Doughnut Economics (DEAL):</strong>
-  <span class="text-green-400">Límites Planetarios (techo):</span> Cambio climático, biodiversidad, agua, suelo · 
-  <span class="text-orange-400">Base Social (suelo):</span> Alimentación, salud, educación, trabajo digno, equidad · 
-  <a href="https://doughnuteconomics.org/" target="_blank" class="text-blue-300 hover:underline">doughnuteconomics.org</a> · 
-  <span class="italic opacity-75">Espacio seguro y justo: entre ambos límites</span>
-</div>
-
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">9/21</span>
-</div>
-
-
-
-
----
-layout: center
-class: text-center
----
-
-<!-- SLIDE 10 -->
 # **¿Por qué ahora?:** Ventana 2026-2027
 
 <div class="grid grid-cols-3 gap-6 pt-8 text-sm">
@@ -632,7 +483,7 @@ class: text-center
 <div v-click>
 <div class="text-4xl">🌱</div>
 <div class="font-bold text-lg text-orange-500">Nicho</div>
-<div class="pt-2">Masa crítica startups con impacto en Sur Global</div>
+<div class="pt-2">Masa crítica startups con impacto en LATAM</div>
 <div class="text-xs text-gray-400 pt-2">
 +340% inversión ClimaTech 2021-2024<br/>
 <a href="https://www.lavca.org/research/2025-latin-american-startup-ecosystem-insights/" target="_blank" class="text-orange-400 hover:text-orange-300 underline">LAVCA 2025</a>
@@ -667,14 +518,159 @@ Startups con impacto+ necesitan <strong>antifragilidad</strong> para construir i
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">10/21</span>
+  <span class="text-gray-400">9/22</span>
 </div>
-
-
 
 ---
 layout: center
-zoom: 0.8
+class: text-center
+zoom: 0.85
+---
+
+# Movimientos clave
+
+<div class="text-2xl font-bold text-green-400 text-center pt-4 pb-2">
+De <span class="text-red-400">frágil</span> → <span class="text-green-400">Antifrágil + Regenerativo</span>
+</div>
+
+<div class="grid grid-cols-5 items-center gap-2 text-center mb-4">
+  <div class="col-span-2 p-3 bg-red-900/50 rounded font-bold text-lg text-red-300">DESDE</div>
+  <div class="text-4xl font-bold text-gray-400">→</div>
+  <div class="col-span-2 p-3 bg-green-900/50 rounded font-bold text-lg text-green-300">HACIA</div>
+</div>
+
+<div class="grid grid-cols-1 gap-3 text-xs leading-tight">
+  <div class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
+    <div class="col-span-2 text-center">
+      Pocas fuentes de ingresos<br><span class="text-red-300">Una fuente >70%</span>
+    </div>
+    <div></div>
+    <div class="col-span-2 text-center">
+      Varias fuentes de ingresos<br><span class="text-green-300">≥3 fuentes <40% dependencia</span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
+    <div class="col-span-2 text-center">
+      Alta dependencia founder<br><span class="text-red-300">Founder >70% decisiones</span>
+    </div>
+    <div></div>
+    <div class="col-span-2 text-center">
+      Baja dependencia founder<br><span class="text-green-300">Equipo >70% sin founder</span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
+    <div class="col-span-2 text-center">
+      Toma de decisiones sin datos<br><span class="text-red-300">Intuitivas / sin datos</span>
+    </div>
+    <div></div>
+    <div class="col-span-2 text-center">
+      Toma de decisiones con datos<br><span class="text-green-300">Rápidas + basadas en datos</span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
+    <div class="col-span-2 text-center">
+      Bajo respeto por el planeta<br><span class="text-red-300">Huella ignorada / creciente</span>
+    </div>
+    <div></div>
+    <div class="col-span-2 text-center">
+      Alto respeto por el planeta<br><span class="text-green-300">Huella medida + reducida</span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
+    <div class="col-span-2 text-center">
+      Bajo respeto po las personas<br><span class="text-red-300">Precario / inequidad</span>
+    </div>
+    <div></div>
+    <div class="col-span-2 text-center">
+      Alto respeto po las personas<br><span class="text-green-300">Salarios justos + equidad</span>
+    </div>
+  </div>
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">10/22</span>
+</div>
+
+---
+layout: center
+---
+
+<!-- SLIDE 10 -->
+# Posicionamiento Competitivo
+
+<div class="relative w-[900px] h-[500px] mx-auto mt-2 border-2 border-gray-600">
+  
+  <!-- Ejes principales -->
+  <div class="absolute left-1/2 top-0 bottom-0 w-px bg-gray-600"></div>
+  <div class="absolute top-1/2 left-0 right-0 h-px bg-gray-600"></div>
+  
+  <!-- Labels de cuadrantes -->
+  <div class="absolute top-[20px] left-[20px] px-4 py-2 bg-gray-600 text-white text-sm font-semibold rounded">
+    IMPACTO + PREDICTIBILIDAD
+  </div>
+  <div class="absolute top-[20px] right-[20px] px-4 py-2 bg-gray-600 text-white text-sm font-semibold rounded">
+    LÍDERES
+  </div>
+  <div class="absolute bottom-[20px] left-[20px] px-4 py-2 bg-gray-600 text-white text-sm font-semibold rounded">
+    ENFOQUE TRADICIONAL
+  </div>
+  <div class="absolute bottom-[20px] right-[20px] px-4 py-2 bg-gray-600 text-white text-sm font-semibold rounded">
+    VISIONARIOS
+  </div>
+  
+  <!-- Círculos - LÍDER (superior derecho) -->
+  <div class="absolute top-[80px] right-[140px]">
+    <div class="w-4 h-4 bg-green-500 rounded-full"></div>
+    <div class="absolute left-6 top-[-4px] text-green-400 font-semibold text-base whitespace-nowrap">Círculos</div>
+  </div>
+  
+  <!-- CREA (superior izquierdo - más bajo que Círculos) -->
+  <div class="absolute top-[160px] left-[200px]">
+    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
+    <div class="absolute left-6 top-[-4px] text-blue-300 font-semibold text-base whitespace-nowrap">CREA</div>
+  </div>
+  
+  <!-- Vistage (inferior derecho - cerca del centro) -->
+  <div class="absolute bottom-[140px] right-[280px]">
+    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
+    <div class="absolute left-6 top-[-4px] text-blue-300 font-semibold text-base whitespace-nowrap">Vistage</div>
+  </div>
+  
+  <!-- EO (inferior izquierdo) -->
+  <div class="absolute bottom-[110px] left-[160px]">
+    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
+    <div class="absolute left-6 top-[-4px] text-blue-300 font-semibold text-base whitespace-nowrap">EO</div>
+  </div>
+  
+  <!-- Leyendas de ejes -->
+  <div class="absolute left-[15px] top-1/2 -translate-y-1/2 -rotate-90 text-sm text-gray-400 font-semibold whitespace-nowrap">
+    FOCO EN NEGOCIO
+  </div>
+  <div class="absolute left-[15px] top-[100px] -rotate-90 text-sm text-gray-400 font-semibold whitespace-nowrap origin-left">
+    FOCO EN IMPACTO
+  </div>
+  <div class="absolute bottom-[10px] left-[120px] text-sm text-gray-400 font-semibold whitespace-nowrap">
+    PREDICTIBILIDAD
+  </div>
+  <div class="absolute bottom-[10px] right-[120px] text-sm text-gray-400 font-semibold whitespace-nowrap">
+    ADAPTABILIDAD/ANTIFRAGILIDAD
+  </div>
+
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">11/22</span>
+</div>
+
+---
+layout: center
+zoom: 0.9
 ---
 
 <!-- SLIDE 11 -->
@@ -688,7 +684,7 @@ zoom: 0.8
   </div>
   <div class="bg-green-800 p-3 rounded text-white font-bold border-3 border-green-400">
     CÍRCULOS<br>
-    12+ meses<br>Resiliencia/Colaboración
+    12+ meses<br>Resiliencia/Ops
   </div>
   <div class="bg-gray-900 p-2 rounded">
     <strong>YPO/Vistage</strong><br>
@@ -696,7 +692,7 @@ zoom: 0.8
   </div>
 </div>
 
-<div class="text-[14px] leading-tight">
+<div class="text-[10px] leading-tight">
 
 | Característica | Círculos | YPO/EO | Endeavor | Vistage |
 |:---------------|:--------:|:------:|:--------:|:-------:|
@@ -712,17 +708,17 @@ zoom: 0.8
 <div class="grid grid-cols-2 gap-4 mt-5 text-[11px]">
   <div class="bg-green-900/80 p-3 rounded text-white">
     <strong class="block mb-1">Diferenciadores Únicos</strong>
-    Score Antifragilidad accionable • Acceso a Know-How especializado • 50% más barato
+    Score medible • Skin in the game • 50% más barato
   </div>
   <div class="bg-pink-900/80 p-3 rounded text-white">
     <strong class="block mb-1">Target Market</strong>
-    Series A-B • $1-10M revenue • Startups base científica y tecnológica
+    Series A-B • $1-10M revenue • Climate tech LATAM
   </div>
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">11/21</span>
+  <span class="text-gray-400">12/22</span>
 </div>
 
 ---
@@ -735,7 +731,7 @@ zoom:0.7
 
 <div class="mb-4 p-3 bg-blue-500/10 border-l-4 border-blue-500 rounded text-sm">
   <div class="text-gray-100">
-    <strong>Las startups de base científica y tecnológica pagan <RoughMarker type="circle" color="#f59e0b">$1500 USD por trimestre</RoughMarker></strong> para acceder a grupo de aprendizaje entre pares, assessment "antifragilidad" y acompañamiento estratégico.
+    <strong>Las startups de base científica y tecnológica pagan $1500 USD por trimestre</strong> para acceder a grupo de aprendizaje entre pares, assessment "antifragilidad" y acompañamiento estratégico.
   </div>
 </div>
 
@@ -772,12 +768,10 @@ zoom:0.7
 <div class="text-xl font-bold mb-3">Qué Incluye</div>
 
 <ul class="list-none text-sm space-y-1">
-  <li>✅ Acceso al proceso de postulación</li>
-  <li>✅ 4 Encuentros presenciales entre pares (trimestrales)</li>
-  <li>✅ Acceso al Framework "Antifragilidad"</li>
-  <li>✅ Sesiones 1:1 para clarificación de desafíos</li>
-  <li>✅ Invitaciones a sesiones con expertos</li>
-  <li>✅ Participar en eventos de la comunidad</li>
+  <li>✅ 4 Encuentros presenciales (trimestrales)</li>
+  <li>✅ Acceso al producto "Assessment Antifragilidad"</li>
+  <li>✅ 2-3 Sesiones 1:1 para clarificación de desafíos</li>
+  <li>✅ Invitación a eventos de la comunidad</li>
 </ul>
 
 <div class="mt-2 text-sm">
@@ -790,7 +784,7 @@ zoom:0.7
 <div class="mt-2 p-2 bg-orange-500/20 border-2 border-orange-500 rounded text-xs">
 <div class="font-bold text-orange-400 mb-1">🎁 Early Bird Bonus</div>
 <div class="text-green-400 font-bold leading-tight mb-1">
-Revisión semestral del Score gratis (2 años + 4 sesiones 1:1)
+Revisión trimestral del Score gratis (1 año + 2 sesiones)
 </div>
 <div class="opacity-70">
 (Valor: $10K USD/anual)
@@ -804,7 +798,7 @@ Revisión semestral del Score gratis (2 años + 4 sesiones 1:1)
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">12/21</span>
+  <span class="text-gray-400">13/22</span>
 </div>
 
 ---
@@ -844,13 +838,13 @@ class: text-center
 - ARR: $50,160
 - Egresos: $46,605 (50% facilitadores + marketing + ops)
 - Balance: $3,555
-- <RoughMarker type="circle" color="#f59e0b"><strong> Margen Bruto: 50% y Margen Neto: 7%</strong></RoughMarker>
+- **Margen Bruto: 50% | Margen Neto: 7%**
 
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">13/21</span>
+  <span class="text-gray-400">14/22</span>
 </div>
 
 ---
@@ -858,7 +852,6 @@ layout: center
 class: text-xs leading-tight
 ---
 
-<!-- SLIDE 14 -->
 # Egresos Piloto
 
 
@@ -871,14 +864,14 @@ class: text-xs leading-tight
 
 |Item                |Monto  |%|
 |--------------------|-------|--|
-|Facilitadores       |25k    |54%|
-|Eventos Q1          |3.3k   |7% |
-|Marketing           |8.5k   |18%|
-|Gestión com.        |4k     |9% |
-|Operaciones         |1.5k   |3% |
-|Oficina virtual     |2k     |4% |
-|Logística           |1.25k  |3% |
-|Imprevistos         |1k     |2% |
+|Facilitadores       |25k    |21.5|
+|Eventos Q1          |3.3k   |7  |
+|Marketing           |8.5k   |18 |
+|Gestión com.        |4k     |9  |
+|Operaciones         |1.5k   |3  |
+|Oficina virtual     |2k     |4  |
+|Logística           |1.25k  |3  |
+|Imprevistos         |1k     |2  |
 |**Total**           |**46.6k** |**100%**|
 
 </div>
@@ -907,9 +900,8 @@ Piloto $2k/mes para los facilitadores → luego 50% rev share
 
 </v-click>
 
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">14/21</span>
+<div class="abs-br m-3 text-xs text-gray-400">
+🏠 15/22
 </div>
 
 ---
@@ -923,18 +915,7 @@ layout: center
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Churn Alto (>10%)</div>
-    <div class="text-xs opacity-80">Founders abandonan el programa o resistencia a "data room" abierto</div>
-  </div>
-  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
-    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Criterios de selección • NPS + Feedback temprano y frecuente • NDA</div>
-  </div>
-</div>
-
-<div v-click class="grid grid-cols-2 gap-4">
-  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Calidad Facilitadores</div>
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Calidad Facilitadores</div>
     <div class="text-xs opacity-80">Facilitadores sin expertise suficiente</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
@@ -945,12 +926,23 @@ layout: center
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Churn Alto (>10%)</div>
+    <div class="text-xs opacity-80">Founders abandonan el programa</div>
+  </div>
+  <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
+    <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
+    <div class="text-xs">Feedback temprano y frecuente 1:1 • Flexibilidad trimestral • NPS tracking</div>
+  </div>
+</div>
+
+<div v-click class="grid grid-cols-2 gap-4">
+  <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
     <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 3: Masa Crítica Insuficiente</div>
     <div class="text-xs opacity-80">No alcanzar 8-10 founders</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
     <div class="font-bold text-green-400 mb-2">✓ Mitigación</div>
-    <div class="text-xs">Startups Insignia • Eventos atractivos • Precio especial para Aliados clave </div>
+    <div class="text-xs">Precio especial para Aliados clave • CAC $330 • Eventos low-cost</div>
   </div>
 </div>
 
@@ -969,7 +961,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">15/21</span>
+  <span class="text-gray-400">16/22</span>
 </div>
 
 ---
@@ -1044,12 +1036,12 @@ layout: center
 </div>
 
 <div v-click class="mt-8 text-center text-base">
-<strong class="text-xl">2027:</strong> Escalar a 100 founders, expandir a otros paises (México/Chile)
+<strong class="text-xl">2027:</strong> Escalar a 100 founders, expandir LATAM (México/Chile)
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">16/21</span>
+  <span class="text-gray-400">17/22</span>
 </div>
 
 ---
@@ -1089,7 +1081,7 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">17/21</span>
+  <span class="text-gray-400">18/22</span>
 </div>
 
 ---
@@ -1160,7 +1152,73 @@ Se rompe con shocks
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">18/21</span>
+  <span class="text-gray-400">19/22</span>
+</div>
+
+---
+layout: center
+class: text-center
+zoom: 0.85
+---
+
+<!-- SLIDE 20 -->
+# Oportunidad de Mercado
+
+<div class="text-xl mb-6 text-green-400">
+Negocios con Impacto (Deep Tech / Base Científica-Tecnológica)
+</div>
+
+<div class="text-xs">
+
+| Nivel | Startups Impacto+ | Deep Tech Total | Mercado Potencial |
+|:------|:------------------|:----------------|:------------------|
+| <div class="font-bold text-blue-400">🌍 MUNDIAL (TAM)</div> | ~18K-28K<br/>(20-30%) | ~91.5K activas<br/>(~30K funded) | <div class="text-green-400 font-bold">$714B-$5T+</div><br/>hacia 2030-2035 |
+| <div class="font-bold text-orange-400">🌎 LATAM (SAM)</div> | ~250-450<br/>(20-35%) | ~1,300-1,500<br/>(~340 venture-backed) | <div class="text-green-400 font-bold">Miles de millones</div><br/>+50-200% reciente |
+| <div class="font-bold text-green-400">🎯 Inicial (SOM)</div> | ~200-400<br/>foco LATAM | ~300-500<br/>accesibles | <div class="text-green-400 font-bold">Cientos de millones</div><br/>capturable 3-5 años |
+
+</div>
+
+<div v-click class="grid grid-cols-3 gap-4 mt-6 text-xs">
+
+<div class="p-3 bg-blue-900/30 rounded border-t-2 border-blue-500">
+<div class="font-bold text-blue-400 mb-1">Mundial</div>
+<div>Inversión VC 2025: ~$217B</div>
+<div>EE.UU./China/India lideran</div>
+<div>AI, quantum, cleantech explotan</div>
+</div>
+
+<div class="p-3 bg-orange-900/30 rounded border-t-2 border-orange-500">
+<div class="font-bold text-orange-400 mb-1">LATAM</div>
+<div>Brasil: 72% del ecosistema</div>
+<div>Chile/ARG/MX/COL: 80% regional</div>
+<div>Fondos + gobierno impulsan</div>
+</div>
+
+<div class="p-3 bg-green-900/30 rounded border-t-2 border-green-500">
+<div class="font-bold text-green-400 mb-1">Nuestro Foco</div>
+<div>200-400 startups impacto+</div>
+<div>Cleantech/Biotech/Agritech</div>
+<div>Aceleradoras regionales activas</div>
+</div>
+
+</div>
+
+<div v-click class="mt-6 p-3 bg-green-900/20 rounded border border-green-500 text-xs">
+<div class="font-bold text-green-400 mb-1">🚀 Por qué LATAM es clave</div>
+<div class="grid grid-cols-3 gap-2">
+<div>✅ Biodiversidad única</div>
+<div>✅ Necesidades climáticas urgentes</div>
+<div>✅ Escalabilidad regional → global</div>
+</div>
+</div>
+
+<div class="text-[9px] mt-4 opacity-60">
+Fuentes: Tracxn 2026, StartUs Insights 2025-2026, Emerge Deep Tech Radar LATAM 2025
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">20/22</span>
 </div>
 
 ---
@@ -1173,68 +1231,69 @@ zoom: 0.85
 
 <div class="grid grid-cols-5 gap-4 mt-8 text-center text-2xl">
 
-  <div class="font-bold text-gray-400">Año</div>
-  <div class="font-bold text-gray-400">Grupos</div>
-  <div class="font-bold text-gray-400">Startups</div>
-  <div class="font-bold text-gray-400">ARR</div>
-  <div class="font-bold text-gray-400">Balance</div>
+  <div>Año</div>
+  <div>Grupos</div>
+  <div>Founders</div>
+  <div>ARR</div>
+  <div>Balance</div>
 
   <div class="font-bold">1</div>
-  <div>2</div>
-  <div>20</div>
-  <div>$120k</div>
-  <div>$8k</div>
-
-  <div class="font-bold">2</div>
   <div>4</div>
   <div>40</div>
-  <div>$240k</div>
-  <div>$17k</div>
+  <div>$201k</div>
+  <div>$14k</div>
 
-  <div class="font-bold">3</div>
-  <div>6</div>
-  <div>60</div>
-  <div>$360k</div>
-  <div>$26k</div>
-
-  <div class="font-bold">4</div>
+  <div class="font-bold">2</div>
   <div>8</div>
   <div>80</div>
-  <div>$480k</div>
-  <div>$34k</div>
+  <div>$401k</div>
+  <div>$28k</div>
+
+  <div class="font-bold">3</div>
+  <div>12</div>
+  <div>120</div>
+  <div>$602k</div>
+  <div>$43k</div>
+
+  <div class="font-bold">4</div>
+  <div>16</div>
+  <div>160</div>
+  <div>$803k</div>
+  <div>$57k</div>
 
   <div class="font-bold text-green-400">5</div>
-  <div class="text-green-400">10</div>
-  <div class="text-green-400 font-bold">100</div>
-  <div class="text-green-400 font-bold">$600k</div>
-  <div class="text-green-400 font-bold">$43k</div>
+  <div>19–20</div>
+  <div><span class="text-green-400 font-bold">190–200</span></div>
+  <div class="text-green-400 font-bold">$953k–$1.0M</div>
+  <div class="text-green-400 font-bold">$68k–$71k</div>
 
 </div>
 
 <v-click>
-<div class="mt-6 p-4 bg-green-500/20 border-2 border-green-500 rounded-lg text-sm">
-<div class="text-xl mb-2 text-center">🎯 Objetivo Año 5 (Conservador)</div>
-<div class="grid grid-cols-2 gap-4 mt-4">
-  <div>
-    <div class="text-base text-gray-300">Captura de SOM</div>
-    <div class="text-2xl font-bold text-green-400">~7% del SAM</div>
-    <div class="text-sm text-gray-400 mt-1">100 de 1,300-1,500 startups LATAM</div>
-  </div>
-  <div>
-    <div class="text-base text-gray-300">Ingresos proyectados</div>
-    <div class="text-2xl font-bold text-green-400">$600K ARR</div>
-    <div class="text-sm text-gray-400 mt-1">$500/mes × 100 startups × 12 meses</div>
-  </div>
+<div class="mt-6 p-4 bg-green-500/20 border-2 border-green-500 rounded-lg text-sm text-center">
+<div class="text-xl mb-4">🎯</div>
+<div class="text-xl font-bold text-green-400">Objetivo Año 5 (Conservador)</div>
+<div class="text-xl mt-1 mb-1">
+Captura realista del SOM:
 </div>
-<div class="mt-4 text-xs text-center text-gray-400">
-Supuestos: 10 startups/grupo, $500/mes, 2 grupos nuevos/año, retención 85%
+<div class="text-xl font-bold text-white leading-tight">
+~190–200 founders  
+(≈1.1% del mercado alcanzable, ~$1M ARR)
 </div>
 </div>
 </v-click>
 
+<div class="absolute bottom-6 left-0 right-0 text-center text-xs">
+<a href="https://docs.google.com/spreadsheets/d/1vuueQ1KsssOcFZCqQ0wkBhfWKdBLhUwi/edit?usp=sharing" 
+   target="_blank" 
+   class="text-blue-400 hover:text-blue-300">
+📊 Apertura del Caso de negocio (clic acá)
+</a>
+</div>
+
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">19/21</span>
+  <span class="text-gray-400">19/22</span>
 </div>
 
 
@@ -1245,7 +1304,7 @@ class: text-center
 zoom:0.7
 ---
 
-<!-- SLIDE 20 -->
+<!-- SLIDE 21 -->
 ## ¿Tu negocio <span v-mark.circle.orange=".5">**mejora**</span> o se **rompe** con los cambios de contexto?
 
 <div class="space-y-10">
@@ -1259,9 +1318,9 @@ zoom:0.7
   <v-click>
   <div class="text-lg text-gray-300">
     <strong>Próximos pasos:</strong><br/>
-    1️⃣ Conversaciones con Founders (30 min c/u)<br/>
-    2️⃣ Identificar brechas con Assessment Antifragilidad<br/>
-    3️⃣ Oferta personalizada para Startups "Early Birds" Q1 2026<br/>
+    1️⃣ Cafecitos con Founders (30 min c/u)<br/>
+    2️⃣ Assessment Antifragilidad sin costo<br/>
+    3️⃣ Propuesta personalizada "Early Birds"<br/>
   </div>
   </v-click>
 
@@ -1272,7 +1331,7 @@ zoom:0.7
          alt="QR WhatsApp"
          class="w-36 h-36 p-2 bg-white rounded-lg" />
     <div class="text-lg text-gray-100 text-center">
-      Si te interesa profundizar,<br/>
+      Si te interesó esta iniciativa,<br/>
       escribime por WhatsApp y conversamos.
     </div>
   </div>
@@ -1282,22 +1341,5 @@ zoom:0.7
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">20/21</span>
-</div>
-
----
-layout: center
-class: text-center
----
-
-<!-- SLIDE 21 -->
-# ¡Gracias!
-
-<div class="text-xl pt-8">
-¿Preguntas?
-</div>
-
-<div class="abs-br m-6 flex gap-2 text-sm">
-  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">21/21</span>
+  <span class="text-gray-400">22/22</span>
 </div>

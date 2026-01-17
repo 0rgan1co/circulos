@@ -7,6 +7,8 @@ lineNumbers: false
 info: |
   ## Círculos Impacto+
   Programa de Antifragilidad para Startups LATAM
+addons:
+  - slidev-addon-rough
 drawings:
   persist: false
 transition: slide-left
@@ -25,6 +27,10 @@ mdc: true
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Presiona Espacio para continuar <carbon:arrow-right class="inline"/>
   </span>
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <span class="text-gray-400">1/20</span>
 </div>
 
 ---
@@ -98,6 +104,34 @@ layout: center
 <em>Presiona Espacio para explorar cada sección</em>
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">2/20</span>
+</div>
+
+---
+layout: center
+class: text-center
+zoom: 0.85
+---
+
+<!-- SLIDE xx -->
+# ¿Tu negocio **mejora** o se **rompe** con los cambios de <span v-mark.circle.orange="0">contexto</span>?
+
+<div class="grid grid-cols-2 gap-16 mt-16 text-left">
+  <div class="p-8 bg-red-500/10 rounded-lg border-2 border-red-500">
+    <div class="text-6xl mb-4">💔</div>
+    <div class="text-4xl font-bold text-red-500">Se ROMPE</div>
+    <div class="text-lg mt-4 opacity-80">Frágil ante la incertidumbre</div>
+  </div>
+  
+  <div class="p-8 bg-green-500/10 rounded-lg border-2 border-green-500">
+    <div class="text-6xl mb-4">🚀</div>
+    <div class="text-4xl font-bold text-green-500">MEJORA</div>
+    <div class="text-lg mt-4 opacity-80">Antifrágil y crece con el caos</div>
+  </div>
+</div>
+
 ---
 
 <!-- SLIDE 3 -->
@@ -131,6 +165,11 @@ layout: center
 🚨 ¡El problema NO es la ciencia o la tecnología, es la FRAGILIDAD!
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">3/20</span>
+</div>
+
 ---
 
 <!-- SLIDE 4 -->
@@ -156,6 +195,11 @@ layout: center
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">4/20</span>
+</div>
+
 ---
 layout: center
 class: text-center
@@ -178,7 +222,7 @@ class: text-center
 <div class="text-4xl">📊</div>
 <div class="font-bold text-green-500">Score Antifragilidad</div>
 <div class="text-sm">Framework propietario de 280 puntos, recolectando datos y evidencia</div>
-<a href="/15" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1">
+<a @click="$slidev.nav.go(16)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
   Ver detalle del Score →
 </a>
 </div>
@@ -203,6 +247,11 @@ class: text-center
 
 </div>
 
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">5/20</span>
 </div>
 
 ---
@@ -247,11 +296,16 @@ class: text-center
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">6/20</span>
+</div>
+
 ---
 layout: center
 ---
 
-<!-- SLIDE 18 -->
+<!-- SLIDE 7 -->
 # Posicionamiento Competitivo
 
 <div class="relative w-[900px] h-[500px] mx-auto mt-2">
@@ -302,11 +356,69 @@ layout: center
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">7/20</span>
+</div>
+
+---
+layout: center
+zoom: 0.85
+---
+
+<!-- SLIDE 15 -->
+# Posicionamiento: Complementarios, No Competidores
+<div class="text-green-400 text-lg mb-4">Nuestro Sweet Spot en el Ecosistema</div>
+
+<div class="grid grid-cols-3 gap-3 text-center text-xs mb-6">
+  <div class="bg-gray-900 p-2 rounded">
+    <strong>Aceleradoras</strong><br>
+    3-6 meses | Growth/PMF
+  </div>
+  <div class="bg-green-800 p-3 rounded text-white font-bold border-3 border-green-400">
+    CÍRCULOS<br>
+    12+ meses<br>Resiliencia/Ops
+  </div>
+  <div class="bg-gray-900 p-2 rounded">
+    <strong>YPO/Vistage</strong><br>
+    Vitalicio | Network/Scale
+  </div>
+</div>
+
+<div class="text-[10px] leading-tight">
+
+| Característica | Círculos | YPO/EO | Endeavor | Vistage |
+|:---------------|:--------:|:------:|:--------:|:-------:|
+| Precio/mes | **$500** | $1,000-1,250 | Gratis | $1,250-2,100 |
+| Foco impacto | ✓ | ✗ | ✗ | ✗ |
+| Framework antifragilidad | ✓ | ✗ | ✗ | ✗ |
+| Facilitadores skin in the game | ✓ | ✗ | ✗ | ✗ |
+| Membresía flexible | ✓ | ✗ | ✗ | ✗ |
+| Red global | ✗ | ✓ | ✗ | ✓ |
+
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-5 text-[11px]">
+  <div class="bg-green-900/80 p-3 rounded text-white">
+    <strong class="block mb-1">Diferenciadores Únicos</strong>
+    Score medible • Skin in the game • 50% más barato
+  </div>
+  <div class="bg-pink-900/80 p-3 rounded text-white">
+    <strong class="block mb-1">Target Market</strong>
+    Series A-B • $1-10M revenue • Climate tech LATAM
+  </div>
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">15/20</span>
+</div>
+
 ---
 layout: center
 ---
 
-<!-- SLIDE 7 -->
+<!-- SLIDE 8 -->
 # Propuesta de Circulos
 
 <div class="grid grid-cols-2 gap-8 pt-8">
@@ -359,12 +471,17 @@ Compromiso: Trimestral (vs anual otros)
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">8/20</span>
+</div>
+
 ---
 layout: center
 class: text-center
 ---
 
-<!-- SLIDE 8 -->
+<!-- SLIDE 9 -->
 # Unit Economics de un Grupo
 
 <div class="grid grid-cols-3 gap-8 pt-12">
@@ -400,12 +517,17 @@ class: text-center
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">9/20</span>
+</div>
+
 ---
 layout: center
 class: text-center
 ---
 
-<!-- SLIDE 9 -->
+<!-- SLIDE 10 -->
 # **Por Qué Ahora:** Ventana 2026-2027
 
 <div class="grid grid-cols-3 gap-6 pt-8 text-sm">
@@ -466,11 +588,16 @@ Startups con impacto+ necesitan <strong>antifragilidad</strong> para construir i
 
 </v-click>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">10/20</span>
+</div>
+
 ---
 layout: center
 ---
 
-<!-- SLIDE 10 -->
+<!-- SLIDE 11 -->
 # Costos
 
 <div class="pt-8">
@@ -521,11 +648,16 @@ Programa autofinanciado
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">11/20</span>
+</div>
+
 ---
 layout: center
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 12 -->
 # Principales Riesgos
 
 <div class="space-y-3 text-sm">
@@ -552,11 +684,16 @@ Mitigación: First mover 2026-27, framework propietario, network effect
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">12/20</span>
+</div>
+
 ---
 layout: center
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 13 -->
 # Roadmap 2026
 
 <div class="grid grid-cols-3 gap-6 pt-8 text-sm">
@@ -636,12 +773,16 @@ Preparar expansión 2027
 <strong>2027:</strong> Escalar a 100 founders, expandir LATAM (México/Chile)
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">13/20</span>
+</div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 14 -->
 # Apéndice
 
 <div class="text-sm space-y-2 pt-8">
@@ -672,60 +813,16 @@ layout: center
 
 </div>
 
----
-layout: center
-zoom: 0.85
----
-
-<!-- SLIDE 14 -->
-# Posicionamiento: Complementarios, No Competidores
-<div class="text-green-400 text-lg mb-4">Nuestro Sweet Spot en el Ecosistema</div>
-
-<div class="grid grid-cols-3 gap-3 text-center text-xs mb-6">
-  <div class="bg-gray-900 p-2 rounded">
-    <strong>Aceleradoras</strong><br>
-    3-6 meses | Growth/PMF
-  </div>
-  <div class="bg-green-800 p-3 rounded text-white font-bold border-3 border-green-400">
-    CÍRCULOS<br>
-    12+ meses<br>Resiliencia/Ops
-  </div>
-  <div class="bg-gray-900 p-2 rounded">
-    <strong>YPO/Vistage</strong><br>
-    Vitalicio | Network/Scale
-  </div>
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">14/20</span>
 </div>
-
-<div class="text-[10px] leading-tight">
-
-| Característica | Círculos | YPO/EO | Endeavor | Vistage |
-|:---------------|:--------:|:------:|:--------:|:-------:|
-| Precio/mes | **$500** | $1,000-1,250 | Gratis | $1,250-2,100 |
-| Foco impacto | ✓ | ✗ | ✗ | ✗ |
-| Framework antifragilidad | ✓ | ✗ | ✗ | ✗ |
-| Facilitadores skin in the game | ✓ | ✗ | ✗ | ✗ |
-| Membresía flexible | ✓ | ✗ | ✗ | ✗ |
-| Red global | ✗ | ✓ | ✗ | ✓ |
-
-</div>
-
-<div class="grid grid-cols-2 gap-4 mt-5 text-[11px]">
-  <div class="bg-green-900/80 p-3 rounded text-white">
-    <strong class="block mb-1">Diferenciadores Únicos</strong>
-    Score medible • Skin in the game • 50% más barato
-  </div>
-  <div class="bg-pink-900/80 p-3 rounded text-white">
-    <strong class="block mb-1">Target Market</strong>
-    Series A-B • $1-10M revenue • Climate tech LATAM
-  </div>
-</div>
-
 
 ---
 layout: two-cols
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 16 -->
 # Framework Propietario
 
 ## Antifragilidad Score™
@@ -787,12 +884,16 @@ Se rompe con shocks
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">16/20</span>
+</div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 16 -->
+<!-- SLIDE 17 -->
 # Crecimiento 5 Años
 
 <div class="pt-2">
@@ -814,12 +915,17 @@ Churn 5% (retención 95%) · Crecimiento 40% referidos · Sin inversión post-se
 
 </div>
 
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">17/20</span>
+</div>
+
 ---
 layout: center
 class: text-center
 ---
 
-<!-- SLIDE 17 -->
+<!-- SLIDE 18 -->
 # Proyección de Mercado LATAM
 
 **¿Qué % capturamos?**
@@ -838,4 +944,99 @@ class: text-center
   <div class="text-5xl font-bold mt-8">$3.7M</div>
 </div>
 
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">18/20</span>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<!-- SLIDE 19 -->
+# El Modelo de Impacto
+
+<div class="text-left max-w-4xl mx-auto pt-8 space-y-6">
+
+<div v-click class="p-4 bg-green-900/30 rounded">
+<div class="text-xl font-bold text-green-400 mb-2">🌍 Teoría del Cambio</div>
+<div class="text-sm">
+Si founders de startups con base científica y tecnológica desarrollan <strong>antifragilidad</strong>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones de impacto climático, generando <strong>cambio sistémico</strong> en sus ecosistemas.
+</div>
+</div>
+
+<div v-click class="grid grid-cols-3 gap-4 text-sm">
+
+<div class="p-3 bg-blue-900/30 rounded">
+<div class="font-bold text-blue-400 mb-2">INPUT</div>
+- Framework Antifragilidad<br/>
+- Facilitadores comprometidos<br/>
+- Comunidad de pares<br/>
+- Tracking trimestral
+</div>
+
+<div class="p-3 bg-purple-900/30 rounded">
+<div class="font-bold text-purple-400 mb-2">OUTPUT</div>
+- Score mejora 2+ niveles<br/>
+- 3+ fuentes de ingreso<br/>
+- Equipos empoderados<br/>
+- Decisiones basadas en datos
+</div>
+
+<div class="p-3 bg-orange-900/30 rounded">
+<div class="font-bold text-orange-400 mb-2">IMPACTO</div>
+- Mayor supervivencia startups<br/>
+- Escalamiento sostenible<br/>
+- Innovación en mercado<br/>
+- Cambio climático real
+</div>
+
+</div>
+
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">19/20</span>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<!-- SLIDE 20 -->
+# ¿Listo para construir antifragilidad?
+
+<div class="pt-12 space-y-8">
+
+<div class="text-4xl font-bold text-green-400">
+Hagamos que más startups climate tech sobrevivan y escalen
+</div>
+
+<div class="text-2xl">
+📧 Contacto: [email]<br/>
+🌐 Web: [website]<br/>
+📱 WhatsApp: [phone]
+</div>
+
+<v-click>
+
+<div class="pt-8 text-xl text-gray-300">
+<strong>Próximos pasos:</strong><br/>
+1️⃣ Reunión exploratoria (30 min)<br/>
+2️⃣ Assessment inicial gratuito<br/>
+3️⃣ Propuesta personalizada<br/>
+</div>
+
+</v-click>
+
+</div>
+
+<div class="abs-br m-6 flex gap-2 text-sm">
+  <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
+  <span class="text-gray-400">20/20</span>
 </div>
