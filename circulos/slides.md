@@ -973,7 +973,7 @@ Objetivo: Validar modelo en Q1 2026
 <ul class="text-[10px] mt-1 ml-3 space-y-0.5">
   <li>2 senior × 4 meses × $2k/mes</li>
   <li>8-10 founders validados</li>
-  <li>Autogestión del "Score Antifragilidad"</li>
+  <li>Implementar "Score Antifragilidad"</li>
   <li>Facilitación de encuentros para refinar plan de mejora con ROI</li>
 </ul>
 <div class="text-[10px] text-blue-200 mt-1">→ Brechas antifragilidad identificadas + Q4: nuevas fuentes de ingreso</div>
@@ -986,6 +986,7 @@ Objetivo: Validar modelo en Q1 2026
   <li>4 eventos presenciales para posicionar y enrolar</li>
   <li>Alianzas con jugadores clave del ecosistema</li>
   <li>Research "Historias con evidencia"</li>
+  <li>"Score Antifragilidad" autogestionado con IA (para Q3 o Q4)</li>
 </ul>
 <div class="text-[10px] text-green-200 mt-1">→ Pipeline 100 founders + Posicionamiento + Evidencia ClimaTech</div>
 </div>
