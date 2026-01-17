@@ -404,7 +404,7 @@ zoom: 0.9
 <div class="text-4xl">📊</div>
 <div class="font-bold text-green-500">Score Antifragilidad + Plan de mejora continua</div>
 <div class="text-sm">Framework propietario de 280 puntos, recolectando datos y evidencia</div>
-<a @click="$slidev.nav.go(19)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
+<a href="https://antifragility-score-6-0-1042273710243.us-west1.run.app/" target="_blank" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1">
   Ver detalle del Score (VALOR, FLUJO, PERSONAS, CULTURA, INNOVACIÓN) →
 </a>
 </div>
@@ -1219,6 +1219,12 @@ layout: two-cols
 | CULTURA    | 62.5   | 22% |
 | INNOVACIÓN | 50     | 18% |
 
+</div>
+
+<div class="mt-4">
+<a href="https://antifragility-score-6-0-1042273710243.us-west1.run.app/" target="_blank" class="text-xs text-blue-400 hover:text-blue-300 underline">
+  🔗 Acceder al Assessment Antifragilidad →
+</a>
 </div>
 
 ::right::
