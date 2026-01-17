@@ -1,4 +1,9 @@
 ---
+seoMeta:
+  ogImage: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920"
+  ogTitle: "Círculos Impacto+ - Antifragilidad para Startups"
+  ogDescription: "Programa de Antifragilidad para Startups."
+---
 theme: default
 background: https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920
 class: text-center
@@ -12,6 +17,7 @@ drawings:
 transition: slide-left
 title: Círculos Impacto+ - Pitch Deck
 mdc: true
+
 ---
 
 <!-- SLIDE 1 -->
