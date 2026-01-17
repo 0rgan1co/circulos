@@ -399,7 +399,7 @@ zoom: 0.9
 <div class="text-4xl">📊</div>
 <div class="font-bold text-green-500">Score Antifragilidad + Plan de mejora continua</div>
 <div class="text-sm">Framework propietario de 280 puntos, recolectando datos y evidencia</div>
-<a @click="$slidev.nav.go(18)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
+<a @click="$slidev.nav.go(19)" class="text-xs text-blue-400 hover:text-blue-300 underline block mt-1 cursor-pointer">
   Ver detalle del Score (VALOR, FLUJO, PERSONAS, CULTURA, INNOVACIÓN) →
 </a>
 </div>
@@ -756,7 +756,7 @@ layout: center
 zoom: 0.8
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 12 -->
 # Posicionamiento: Complementarios, No Competidores
 <div class="text-green-400 text-lg mb-4">Nuestro Sweet Spot en el Ecosistema</div>
 
@@ -801,7 +801,7 @@ zoom: 0.8
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">11/21</span>
+  <span class="text-gray-400">12/21</span>
 </div>
 
 ---
@@ -809,7 +809,7 @@ layout: center
 zoom:0.7
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 13 -->
 # Propuesta económica para Founders
 
 <div class="mb-4 p-3 bg-blue-500/10 border-l-4 border-blue-500 rounded text-sm">
@@ -883,7 +883,7 @@ Revisión semestral del Score gratis (2 años + 4 sesiones 1:1)
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">12/21</span>
+  <span class="text-gray-400">13/21</span>
 </div>
 
 ---
@@ -891,7 +891,7 @@ layout: center
 class: text-center
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 14 -->
 # Mirada de negocio | Ingresos
 
 <div class="grid grid-cols-3 gap-8 pt-12">
@@ -929,7 +929,7 @@ class: text-center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">13/21</span>
+  <span class="text-gray-400">14/21</span>
 </div>
 
 ---
@@ -937,7 +937,7 @@ layout: center
 class: text-xs leading-tight
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 15 -->
 # Egresos Piloto
 
 <v-click>
@@ -1009,21 +1009,21 @@ Objetivo: Validar modelo en Q1 2026
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">14/21</span>
+  <span class="text-gray-400">15/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 16 -->
 # Principales Riesgos de la prueba piloto
 
 <div class="space-y-4 text-sm mt-8">
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 3: Masa Crítica Insuficiente</div>
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Masa Crítica Insuficiente</div>
     <div class="text-xs opacity-80">No alcanzar 8-10 founders</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
@@ -1034,7 +1034,7 @@ layout: center
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 1: Churn Alto (>10%)</div>
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Churn Alto (>10%)</div>
     <div class="text-xs opacity-80">Founders abandonan el programa por resistencia a la transparencia</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
@@ -1045,7 +1045,7 @@ layout: center
 
 <div v-click class="grid grid-cols-2 gap-4">
   <div class="p-4 bg-red-500/20 border-l-4 border-red-500 rounded">
-    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 2: Calidad del grupo</div>
+    <div class="font-bold text-red-400 mb-2">⚠️ Riesgo 3: Calidad del grupo</div>
     <div class="text-xs opacity-80">Facilitadores sin expertise suficiente</div>
   </div>
   <div class="p-4 bg-green-500/20 border-l-4 border-green-500 rounded">
@@ -1069,14 +1069,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">15/21</span>
+  <span class="text-gray-400">16/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 16 -->
+<!-- SLIDE 17 -->
 # Roadmap 2026
 
 <div class="grid grid-cols-3 gap-6 pt-6 text-sm">
@@ -1091,7 +1091,7 @@ layout: center
 <div>✅ 2 facilitadores NPS ≥75</div>
 <div>✅ Score baseline documentado</div>
 <div>✅ Asistencia ≥80%</div>
-<div>✅ Pipeline 20+ leads Q2</div>
+<div>✅ Pipeline 20 en Q1 + leads Q2</div>
 </div>
 
 <div class="mt-4 p-2 bg-orange-500/20 rounded text-xs font-bold text-orange-400">
@@ -1149,14 +1149,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">16/21</span>
+  <span class="text-gray-400">17/21</span>
 </div>
 
 ---
 layout: center
 ---
 
-<!-- SLIDE 17 -->
+<!-- SLIDE 18 -->
 # Apéndice
 
 <div class="text-sm space-y-2 pt-8">
@@ -1189,14 +1189,14 @@ layout: center
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">17/21</span>
+  <span class="text-gray-400">18/21</span>
 </div>
 
 ---
 layout: two-cols
 ---
 
-<!-- SLIDE 18 -->
+<!-- SLIDE 19 -->
 # Framework Propietario
 
 ## Antifragilidad Score™
@@ -1260,7 +1260,7 @@ Se rompe con shocks
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">18/21</span>
+  <span class="text-gray-400">19/21</span>
 </div>
 
 ---
@@ -1268,7 +1268,7 @@ layout: center
 zoom: 0.85
 ---
 
-<!-- SLIDE 19 -->
+<!-- SLIDE 20 -->
 # Crecimiento 5 Años
 
 <div class="grid grid-cols-5 gap-4 mt-8 text-center text-2xl">
@@ -1334,7 +1334,7 @@ Supuestos: 10 startups/grupo, $500/mes, 2 grupos nuevos/año, retención 85%
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">19/21</span>
+  <span class="text-gray-400">20/21</span>
 </div>
 
 
@@ -1345,7 +1345,7 @@ class: text-center
 zoom:0.7
 ---
 
-<!-- SLIDE 20 -->
+<!-- SLIDE 21 -->
 ## ¿Tu negocio <span v-mark.circle.orange=".5">**mejora**</span> o se **rompe** con los cambios de contexto?
 
 <div class="space-y-10">
@@ -1381,6 +1381,5 @@ zoom:0.7
 
 <div class="abs-br m-6 flex gap-2 text-sm">
   <a @click="$slidev.nav.go(1)" class="text-blue-400 hover:text-blue-300 cursor-pointer">🏠</a>
-  <span class="text-gray-400">20/21</span>
+  <span class="text-gray-400">21/21</span>
 </div>
-"
