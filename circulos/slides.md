@@ -1,4 +1,4 @@
-"---
+---
 theme: default
 background: https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920
 class: text-center
@@ -204,11 +204,11 @@ layout: center
 </div>
 
 <div v-click class="pt-4 text-lg text-orange-500">
-🚨 El problema es la <span class="font-bold">FRAGILIDAD y la SOLEDAD</span> ante la incertidumbre
+🚨 Algunas de las causas son la <span class="font-bold">FRAGILIDAD del negocio y la SOLEDAD del founder</span>
 </div>
 
 <div v-click class="mt-4">
-<div class="text-xl font-bold mb-3">¿Cuáles son las principales razones?</div>
+<div class="text-xl font-bold mb-3">¿Qué otras razones hay?</div>
 
 <div class="grid grid-cols-3 gap-2 text-xs">
 
@@ -263,6 +263,8 @@ layout: center
 
 ## ❌ Para quién NO es:
 
+**Founders de <RoughMarker type="circle" color="red">startups en etapas muy tempranas</RoughMarker> o con equipos menores a 10 personas:**
+
 - Startups "early-stage" buscando validación
 - Empresas establecidas ($50M+) con CFOs profesionales
 - Founders que creen que "más inversión" es el único camino
@@ -271,7 +273,7 @@ layout: center
 
 ## ✅ Para quién SÍ es:
 
-**Founders de startups con base científica y tecnológica Series A-B ($1-10M revenue) con:**
+**Founders de <RoughMarker type="circle" color="#10b981">startups con base científica y tecnológica</RoughMarker> Series A-B ($1-10M revenue) con:**
 
 - 🔬 Tecnología probada (TRL 7+) y clientes recurrentes pagando
 - ⚠️ 70-80% ingresos de 1-2 fuentes de ingresos
@@ -381,7 +383,7 @@ zoom: 0.9
 ---
 
 <!-- SLIDE 7 -->
-# ¿Qué es "Círculos con Impacto+"?
+# ¿Qué es <RoughMarker type="circle" color="orange"><strong>"Círculos con Impacto+"</strong></RoughMarker>?
 
 <div class="text-xl pt-8">
 
@@ -411,7 +413,7 @@ zoom: 0.9
 <div v-click>
 <div class="text-4xl">🌱</div>
 <div class="font-bold text-green-500">Foco en impacto+</div>
-<div class="text-sm">Negocios con impacto+, entendemos el sector</div>
+<div class="text-sm">Negocios con impacto+, conocemos el ecosistema de impacto+</div>
 </div>
 
 <div v-click>
@@ -451,51 +453,51 @@ De <span class="text-red-400">Fragilidad + Soledad + Extractivo</span> → <span
 <div class="grid grid-cols-1 gap-3 text-xs leading-tight">
   <div v-click="3" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
     <div class="col-span-2 text-center">
-      Pocas fuentes de ingresos<br><span class="text-red-300">Una fuente >70%</span>
+      POCAS fuentes de ingresos<br><span class="text-red-300">Una fuente >70%</span>
     </div>
     <div></div>
     <div class="col-span-2 text-center">
-      Varias fuentes de ingresos<br><span class="text-green-300">≥3 fuentes <40% dependencia</span>
+      VARIAS fuentes de ingresos<br><span class="text-green-300">≥3 fuentes <40% dependencia</span>
     </div>
   </div>
 
   <div v-click="4" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
     <div class="col-span-2 text-center">
-      Alta dependencia founder<br><span class="text-red-300">Founder >70% decisiones</span>
+      ALTA dependencia founder<br><span class="text-red-300">Founder >70% decisiones</span>
     </div>
     <div></div>
     <div class="col-span-2 text-center">
-      Baja dependencia founder<br><span class="text-green-300">Equipo >70% sin founder</span>
+      BAJA dependencia founder<br><span class="text-green-300">Equipo >70% sin founder</span>
     </div>
   </div>
 
   <div v-click="5" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
     <div class="col-span-2 text-center">
-      Toma de decisiones sin datos<br><span class="text-red-300">Intuitivas / sin datos</span>
+      Toma de decisiones SIN datos<br><span class="text-red-300">Intuitivas / sin datos</span>
     </div>
     <div></div>
     <div class="col-span-2 text-center">
-      Toma de decisiones con datos<br><span class="text-green-300">Rápidas + basadas en datos</span>
+      Toma de decisiones CON datos<br><span class="text-green-300">Rápidas + basadas en datos</span>
     </div>
   </div>
 
   <div v-click="6" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
     <div class="col-span-2 text-center">
-      Bajo respeto por el planeta<br><span class="text-red-300">Huella ignorada / creciente</span>
+      BAJO respeto por el planeta<br><span class="text-red-300">Huella ignorada / creciente</span>
     </div>
     <div></div>
     <div class="col-span-2 text-center">
-      Alto respeto por el planeta<br><span class="text-green-300">Huella medida + reducida</span>
+      ALTO respeto por el planeta<br><span class="text-green-300">Huella medida + reducida</span>
     </div>
   </div>
 
   <div v-click="7" class="grid grid-cols-5 items-center gap-2 bg-gray-900/30 p-2 rounded">
     <div class="col-span-2 text-center">
-      Bajo respeto por las personas<br><span class="text-red-300">Precario / inequidad</span>
+      BAJO respeto por las personas<br><span class="text-red-300">Precario / inequidad</span>
     </div>
     <div></div>
     <div class="col-span-2 text-center">
-      Alto respeto por las personas<br><span class="text-green-300">Salarios justos + equidad</span>
+      ALTO respeto por las personas<br><span class="text-green-300">Salarios justos + equidad</span>
     </div>
   </div>
 </div>
@@ -519,7 +521,7 @@ zoom: 0.7
 <div v-click="1" class="p-6 bg-green-900/30 rounded border-l-4 border-green-500">
 <div class="text-2xl font-bold text-green-400 mb-3">🌍 Hipótesis Central (basada en Doughnut Economics)</div>
 <div class="text-xl leading-relaxed">
-Si founders de startups con base científica y tecnológica desarrollan <RoughMarker type="circle" color="#f59e0b">antifragilidad</RoughMarker>, entonces podrán <strong>sobrevivir y escalar</strong> sus soluciones regenerativas, operando dentro de los <RoughMarker type="circle" color="#10b981">límites planetarios</RoughMarker> mientras cubren las <strong>necesidades humanas fundamentales</strong>, generando <strong>cambio sistémico</strong>.
+Si founders de startups con base científica y tecnológica desarrollan <RoughMarker type="circle" color="#f59e0b">antifragilidad en comunidad</RoughMarker>, entonces las posibilidades de <strong>sobrevivir y escalar</strong> sus soluciones regenerativas van a aumentar, operando dentro de los <RoughMarker type="circle" color="#10b981">límites planetarios</RoughMarker> mientras cubren las <strong>necesidades humanas fundamentales</strong>, generando <strong>cambio sistémico</strong>.
 </div>
 </div>
 
@@ -562,7 +564,7 @@ Si founders de startups con base científica y tecnológica desarrollan <RoughMa
 <div v-click="5" class="p-4 bg-orange-900/30 rounded border-t-4 border-orange-500">
 <div class="font-bold text-orange-400 mb-3 text-lg">OUTCOME</div>
 <div class="space-y-2 leading-relaxed">
-<div>• Mayor supervivencia (80%)</div>
+<div>• Desarrollo de la mentalidad antifragilidad </div>
 <div>• Diversificación ingresos</div>
 <div>• Autonomía y delegación</div>
 <div>• Escalamiento sostenible</div>
@@ -573,7 +575,7 @@ Si founders de startups con base científica y tecnológica desarrollan <RoughMa
 <div class="font-bold text-green-400 mb-3 text-lg">IMPACTO</div>
 <div class="space-y-2 leading-relaxed">
 <div>• <strong>Límites planetarios:</strong> regeneración suelo/agua/aire</div>
-<div>• <strong>Base social:</strong> trabajo digno, distribución valor</div>
+<div>• <strong>Base social:</strong> trabajo justo, distribución valor</div>
 <div>• Referentes de Innovación regenerativa y Antifragilidad en mercado</div>
 </div>
 </div>
@@ -631,7 +633,7 @@ class: text-center
 <div v-click>
 <div class="text-4xl">🌱</div>
 <div class="font-bold text-lg text-orange-500">Nicho</div>
-<div class="pt-2">Masa crítica startups con impacto en Sur Global</div>
+<div class="pt-2">Masa crítica startups con impacto en América Latina</div>
 <div class="text-xs text-gray-400 pt-2">
 +340% inversión ClimaTech 2021-2024<br/>
 <a href="https://www.lavca.org/research/2025-latin-american-startup-ecosystem-insights/" target="_blank" class="text-orange-400 hover:text-orange-300 underline">LAVCA 2025</a>
@@ -946,17 +948,12 @@ class: text-xs leading-tight
 
 <div>
 
-|Item                |Monto  |%|
-|--------------------|-------|--|
-|Facilitadores       |25k    |54%|
-|Eventos Q1          |3.3k   |7% |
-|Marketing           |8.5k   |18%|
-|Gestión com.        |4k     |9% |
-|Operaciones         |1.5k   |3% |
-|Oficina virtual     |2k     |4% |
-|Logística           |1.25k  |3% |
-|Imprevistos         |1k     |2% |
-|**Total**           |**46.6k** |**100%**|
+|Item                  |Monto     |%|
+|----------------------|----------|---|
+|Facilitadores         |25k       |54%|
+|Marketing y comercial |17.3k     |37%|
+|Ops y Oficina virtual |2k        |9% |
+|**Total**             |**46.6k** |**100%**|
 
 </div>
 
